@@ -1,0 +1,217 @@
+\hypertarget{class_pixel_vector}{
+\section{\-Pixel\-Vector \-Class \-Reference}
+\label{class_pixel_vector}\index{\-Pixel\-Vector@{\-Pixel\-Vector}}
+}
+
+
+vector that represents pixel  
+
+
+
+
+{\ttfamily \#include $<$\-Pixel\-Vector.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_pixel_vector_a4482de7867b1cca4fc3c79ac4e9ed057}{
+float {\bfseries length} ()}
+\label{class_pixel_vector_a4482de7867b1cca4fc3c79ac4e9ed057}
+
+\item 
+\hyperlink{class_pixel_vector_a577cd482cb3883a07e8132deed2867a5}{\-Pixel\-Vector} (float \-X=0, float \-Y=0, float \-Z=0)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\hypertarget{class_pixel_vector_a22b1262e2f2735656dce067bb2c4ec2c}{
+\hyperlink{class_pixel_vector}{\-Pixel\-Vector} \hyperlink{class_pixel_vector_a22b1262e2f2735656dce067bb2c4ec2c}{normalize} ()}
+\label{class_pixel_vector_a22b1262e2f2735656dce067bb2c4ec2c}
+
+\begin{DoxyCompactList}\small\item\em normalize \end{DoxyCompactList}\item 
+float \hyperlink{class_pixel_vector_a32846ece3d815954da2ab39d4065e043}{project} (\hyperlink{class_pixel_vector}{\-Pixel\-Vector} u)
+\begin{DoxyCompactList}\small\item\em perform projection on \end{DoxyCompactList}\item 
+float \hyperlink{class_pixel_vector_a3f6081147fc02cfb70f8126ae3c6cb43}{angle} (\hyperlink{class_pixel_vector}{\-Pixel\-Vector} u)
+\begin{DoxyCompactList}\small\item\em check angle with \end{DoxyCompactList}\item 
+\hyperlink{class_pixel_vector}{\-Pixel\-Vector} \hyperlink{class_pixel_vector_ab7ec610eb21ba7ccaa06f9c4fc17bfbb}{operator+} (\hyperlink{class_pixel_vector}{\-Pixel\-Vector} u)
+\begin{DoxyCompactList}\small\item\em returns this + u \end{DoxyCompactList}\item 
+\hyperlink{class_pixel_vector}{\-Pixel\-Vector} \hyperlink{class_pixel_vector_aebbd2da733ec07a11c3bbce5bb022d71}{operator-\/} (\hyperlink{class_pixel_vector}{\-Pixel\-Vector} u)
+\begin{DoxyCompactList}\small\item\em returns this -\/ u \end{DoxyCompactList}\item 
+\hyperlink{class_pixel_vector}{\-Pixel\-Vector} \hyperlink{class_pixel_vector_a6eaa15e3c61944ed2babf972b057adb9}{operator$\ast$} (float alpha)
+\begin{DoxyCompactList}\small\item\em returns this$\ast$alpha \end{DoxyCompactList}\item 
+float \hyperlink{class_pixel_vector_a9725ed4d0ff56fda7a31d908854e446c}{operator$\ast$} (\hyperlink{class_pixel_vector}{\-Pixel\-Vector} u)
+\begin{DoxyCompactList}\small\item\em performs dot operation \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_pixel_vector_a968a901c123dcb5817d3453c7cfc3bce}{
+float {\bfseries \-\_\-length}}
+\label{class_pixel_vector_a968a901c123dcb5817d3453c7cfc3bce}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_pixel_vector_a91d6b032f07679d142342bbe9df024c7}{
+float {\bfseries x}}
+\label{class_pixel_vector_a91d6b032f07679d142342bbe9df024c7}
+
+\item 
+\hypertarget{class_pixel_vector_a578c0d962863c91dd1defaf49d9db26a}{
+float {\bfseries y}}
+\label{class_pixel_vector_a578c0d962863c91dd1defaf49d9db26a}
+
+\item 
+\hypertarget{class_pixel_vector_ac43c01ea9e041491b472944cd5c9aed4}{
+float {\bfseries z}}
+\label{class_pixel_vector_ac43c01ea9e041491b472944cd5c9aed4}
+
+\item 
+\hypertarget{class_pixel_vector_a2c227dae7661698288b00ebd39dc1904}{
+bool {\bfseries is\-Dirty}}
+\label{class_pixel_vector_a2c227dae7661698288b00ebd39dc1904}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+vector that represents pixel 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_pixel_vector_a577cd482cb3883a07e8132deed2867a5}{
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!\-Pixel\-Vector@{\-Pixel\-Vector}}
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!PixelVector@{\-Pixel\-Vector}}
+\subsubsection[{\-Pixel\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}\-Pixel\-Vector\-::\-Pixel\-Vector (
+\begin{DoxyParamCaption}
+\item[{float}]{\-X = {\ttfamily 0}, }
+\item[{float}]{\-Y = {\ttfamily 0}, }
+\item[{float}]{\-Z = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pixel_vector_a577cd482cb3883a07e8132deed2867a5}
+
+
+constructor 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-X} & -\/ x \\
+\hline
+{\em \-Y} & -\/ y \\
+\hline
+{\em \-Z} & -\/ z \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_pixel_vector_a3f6081147fc02cfb70f8126ae3c6cb43}{
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!angle@{angle}}
+\index{angle@{angle}!PixelVector@{\-Pixel\-Vector}}
+\subsubsection[{angle}]{\setlength{\rightskip}{0pt plus 5cm}float \-Pixel\-Vector\-::angle (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Pixel\-Vector}}]{u}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pixel_vector_a3f6081147fc02cfb70f8126ae3c6cb43}
+
+
+check angle with 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em u} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pixel_vector_a6eaa15e3c61944ed2babf972b057adb9}{
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!PixelVector@{\-Pixel\-Vector}}
+\subsubsection[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pixel\-Vector} \-Pixel\-Vector\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{float}]{alpha}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pixel_vector_a6eaa15e3c61944ed2babf972b057adb9}
+
+
+returns this$\ast$alpha 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em u} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pixel_vector_a9725ed4d0ff56fda7a31d908854e446c}{
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!PixelVector@{\-Pixel\-Vector}}
+\subsubsection[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}float \-Pixel\-Vector\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Pixel\-Vector}}]{u}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pixel_vector_a9725ed4d0ff56fda7a31d908854e446c}
+
+
+performs dot operation 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em u} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pixel_vector_ab7ec610eb21ba7ccaa06f9c4fc17bfbb}{
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!operator+@{operator+}}
+\index{operator+@{operator+}!PixelVector@{\-Pixel\-Vector}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pixel\-Vector} \-Pixel\-Vector\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Pixel\-Vector}}]{u}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pixel_vector_ab7ec610eb21ba7ccaa06f9c4fc17bfbb}
+
+
+returns this + u 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em u} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pixel_vector_aebbd2da733ec07a11c3bbce5bb022d71}{
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!PixelVector@{\-Pixel\-Vector}}
+\subsubsection[{operator-\/}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pixel\-Vector} \-Pixel\-Vector\-::operator-\/ (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Pixel\-Vector}}]{u}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pixel_vector_aebbd2da733ec07a11c3bbce5bb022d71}
+
+
+returns this -\/ u 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em u} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pixel_vector_a32846ece3d815954da2ab39d4065e043}{
+\index{\-Pixel\-Vector@{\-Pixel\-Vector}!project@{project}}
+\index{project@{project}!PixelVector@{\-Pixel\-Vector}}
+\subsubsection[{project}]{\setlength{\rightskip}{0pt plus 5cm}float \-Pixel\-Vector\-::project (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Pixel\-Vector}}]{u}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pixel_vector_a32846ece3d815954da2ab39d4065e043}
+
+
+perform projection on 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em u} & \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Drop Shadows/\-Pixel\-Vector.\-h\end{DoxyCompactItemize}

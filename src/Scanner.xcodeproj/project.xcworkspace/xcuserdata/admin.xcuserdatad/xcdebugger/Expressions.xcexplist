@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesStackState
+   version = "1.0">
+   <StackStates>
+      <StackState
+         stackFrameDescription = "Mesh::Clear():Mesh.cpp">
+         <expressions>
+            <expression
+               value = "triangles">
+            </expression>
+            <expression
+               value = "vertexList.size()">
+            </expression>
+            <expression
+               value = "vertexList">
+            </expression>
+            <expression
+               value = "triangles.size()">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[Delegate run]:Delegate.m">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "DropShadows::toRgbx(unsigned char*, unsigned char*, int):DropShadows.cpp">
+         <expressions>
+            <expression
+               value = "bwNonFlat">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[ButtonOverlay positionButtonPressed:]:ButtonOverlay.mm">
+         <expressions>
+            <expression
+               value = "@&quot;y+&quot;">
+            </expression>
+            <expression
+               value = "self.yLable.text">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "DropShadows::getCommonColor(unsigned char*, int):(null)">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[HSImageSidebarView getRowAtIndex:]:HSImageSidebarView.m">
+         <expressions>
+            <expression
+               value = "imageViews">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[ImagePreviewController erosionDelusionButtonPushed:]:ImagePreviewController.mm">
+         <expressions>
+            <expression
+               value = "_imageBackup.sculpted">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[HSImageSidebarView selectedIndex]:HSImageSidebarView.m">
+         <expressions>
+            <expression
+               value = "selectedIndex">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[OpenGLViewController myDrawMeshNoVBOs]:OpenGLViewController.mm">
+         <expressions>
+            <expression
+               value = "meshToDisplay">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[QCARViewController sculptImage:index:]:QCARViewController.mm">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "DropShadows::getCommonColor(unsigned char*, int):DropShadows.cpp">
+         <expressions>
+            <expression
+               value = "sumColors[max]">
+            </expression>
+            <expression
+               value = "counters[300]">
+            </expression>
+            <expression
+               value = "sumColors[idx]">
+            </expression>
+            <expression
+               value = "counters[idx]">
+            </expression>
+            <expression
+               value = "counters[max]">
+            </expression>
+            <expression
+               value = "(1.0f / (float) counters[max])">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "Mesh::AddTriangle(Triangle*):Mesh.cpp">
+         <expressions>
+            <expression
+               value = "meshTriangle-&gt;normal">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "Mesh::NormalFixRec(Triangle*):Mesh.cpp">
+         <expressions>
+            <expression
+               value = "neighbours.size()">
+            </expression>
+            <expression
+               value = "*triangleIt">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[EAGLViewOGL setContext:]:EAGLViewOGL.mm">
+         <expressions>
+            <expression
+               value = "self.context">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[EAGLViewQCAR GetCurrentQCARData::]:EAGLViewQCAR.mm">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[EAGLViewQCAR drawCurrentMesh:]:EAGLViewQCAR.mm">
+         <expressions>
+            <expression
+               value = "toDraw">
+            </expression>
+            <expression
+               value = "mesh">
+            </expression>
+            <expression
+               value = "currentMesh">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "std::list&lt;Triangle*, std::allocator&lt;Triangle*&gt; &gt;::clear():stl_list.h">
+         <expressions>
+            <expression
+               value = "triangles.size();">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[QCARViewController SculptDataToUIImage:]:QCARViewController.mm">
+         <expressions>
+            <expression
+               value = "data.map">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "Triangle::fixOther(Triangle*):Triangle.cpp">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[QCARViewController viewWillAppear:]:QCARViewController.mm">
+         <expressions>
+            <expression
+               value = "buttonOverlay-&gt;invocation">
+            </expression>
+            <expression
+               value = "buttonOverlay-&gt;delegate">
+            </expression>
+            <expression
+               value = "buttonOverlay-&gt;handler">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[ImagePreviewController loadView]:ImagePreviewController.m">
+         <expressions>
+            <expression
+               value = "[self view]">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[QCARViewController dealloc]:QCARViewController.mm">
+         <expressions>
+            <expression
+               value = "super">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[ImagePreviewController resetButtonPushed]:ImagePreviewController.mm">
+         <expressions>
+            <expression
+               value = "imageptr">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[QCARViewController buttonOverlayInit]:QCARViewController.mm">
+         <expressions>
+            <expression
+               value = "buttonOverlay">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[ButtonOverlay pressRunButton]:ButtonOverlay.mm">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[QCARViewController displayMeshButtonPushed]:QCARViewController.mm">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "PixelVector::operator*(float):PixelVector.h">
+         <expressions>
+            <expression
+               value = "counters[max]">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[EAGLViewQCAR drawTeapot:]:EAGLViewQCAR.mm">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[Delegate signMethod::]:Delegate.mm">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[EAGLViewOGL createFramebuffer]:EAGLViewOGL.mm">
+         <expressions>
+            <expression
+               value = "self.context">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "+[ScannerCommon PerformCalibration:::]:ScannerCommon.mm">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[QCARViewController displayMeshButtonPushed]:(null)">
+         <expressions>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "Mesh::ToShape(Shape*):Mesh.cpp">
+         <expressions>
+            <expression
+               value = "numberOfVertices">
+            </expression>
+            <expression
+               value = "centerOfMass">
+            </expression>
+            <expression
+               value = "(**it)._position">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[HSImageSidebarView layoutSubviews]:HSImageSidebarView.m">
+         <expressions>
+         </expressions>
+      </StackState>
+   </StackStates>
+</VariablesStackState>

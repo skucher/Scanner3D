@@ -1,0 +1,62 @@
+\hypertarget{struct_sculpt_data}{
+\section{\-Sculpt\-Data \-Struct \-Reference}
+\label{struct_sculpt_data}\index{\-Sculpt\-Data@{\-Sculpt\-Data}}
+}
+
+
+\-The struct represents data to be sculped.  
+
+
+
+
+{\ttfamily \#include $<$\-Sculpt\-Data.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_sculpt_data_a28bfb90b921bcff65bc352d900509b3d}{
+\hyperlink{struct_sculpt_data_a28bfb90b921bcff65bc352d900509b3d}{\-Sculpt\-Data} ()}
+\label{struct_sculpt_data_a28bfb90b921bcff65bc352d900509b3d}
+
+\begin{DoxyCompactList}\small\item\em creates sculp data struct \end{DoxyCompactList}\item 
+\hypertarget{struct_sculpt_data_a3b6f64215bdecfe34c8dd000e12409b2}{
+bool \hyperlink{struct_sculpt_data_a3b6f64215bdecfe34c8dd000e12409b2}{\-Initialized} ()}
+\label{struct_sculpt_data_a3b6f64215bdecfe34c8dd000e12409b2}
+
+\begin{DoxyCompactList}\small\item\em checks if the map initialized \end{DoxyCompactList}\item 
+\hypertarget{struct_sculpt_data_a59e98c0b0c0beaf6b18692e1dfd85abc}{
+void \hyperlink{struct_sculpt_data_a59e98c0b0c0beaf6b18692e1dfd85abc}{\-Clear} ()}
+\label{struct_sculpt_data_a59e98c0b0c0beaf6b18692e1dfd85abc}
+
+\begin{DoxyCompactList}\small\item\em clears all the data oif the class \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_sculpt_data_a8e0b65a79b5db9749813244ca6bfa280}{
+float \hyperlink{struct_sculpt_data_a8e0b65a79b5db9749813244ca6bfa280}{projection} \mbox{[}3 $\ast$4\mbox{]}}
+\label{struct_sculpt_data_a8e0b65a79b5db9749813244ca6bfa280}
+
+\begin{DoxyCompactList}\small\item\em projection matrix 3 $\ast$ 4 in row leading order \end{DoxyCompactList}\item 
+\hypertarget{struct_sculpt_data_a48c707d42d0381649a1f1cc36967f6b5}{
+unsigned char $\ast$ \hyperlink{struct_sculpt_data_a48c707d42d0381649a1f1cc36967f6b5}{map}}
+\label{struct_sculpt_data_a48c707d42d0381649a1f1cc36967f6b5}
+
+\begin{DoxyCompactList}\small\item\em map represents bw image in bitmap format \end{DoxyCompactList}\item 
+\hypertarget{struct_sculpt_data_aed5120de7c8d39fc7c0aca8786470715}{
+size\-\_\-t {\bfseries size\-Xmap}}
+\label{struct_sculpt_data_aed5120de7c8d39fc7c0aca8786470715}
+
+\item 
+\hypertarget{struct_sculpt_data_a35822145e690e34e4610a4873b45228b}{
+size\-\_\-t {\bfseries size\-Ymap}}
+\label{struct_sculpt_data_a35822145e690e34e4610a4873b45228b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-The struct represents data to be sculped. 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Sculpt\-Data.\-h\end{DoxyCompactItemize}

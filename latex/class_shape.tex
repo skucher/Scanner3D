@@ -1,0 +1,102 @@
+\hypertarget{class_shape}{
+\section{\-Shape \-Class \-Reference}
+\label{class_shape}\index{\-Shape@{\-Shape}}
+}
+
+
+\hyperlink{class_shape}{\-Shape} class\-: \-Singleton class representing shape that can be shown on \-O\-P\-E\-N\-G\-L.  
+
+
+
+
+{\ttfamily \#include $<$\-Shape.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_shape_ae48a6691112a9b68482683e376f54195}{
+bool \hyperlink{class_shape_ae48a6691112a9b68482683e376f54195}{\-Initialized} ()}
+\label{class_shape_ae48a6691112a9b68482683e376f54195}
+
+\begin{DoxyCompactList}\small\item\em check if the shape is initialized \end{DoxyCompactList}\item 
+\hypertarget{class_shape_ae7aa2c4b8d4985d63361c704a55e2d43}{
+void \hyperlink{class_shape_ae7aa2c4b8d4985d63361c704a55e2d43}{\-Clear} ()}
+\label{class_shape_ae7aa2c4b8d4985d63361c704a55e2d43}
+
+\begin{DoxyCompactList}\small\item\em \-Clear and dealloc all map contents. \end{DoxyCompactList}\item 
+\hypertarget{class_shape_ac975d10e5f753e00229d3b1802bedd80}{
+void {\bfseries set\-Outline} (\hyperlink{class_edge}{\-Edge} $\ast$\-\_\-outline, int size)}
+\label{class_shape_ac975d10e5f753e00229d3b1802bedd80}
+
+\item 
+\hypertarget{class_shape_ada05329b14c90bc0bd2a6b275420828d}{
+void \hyperlink{class_shape_ada05329b14c90bc0bd2a6b275420828d}{\-Write\-Data\-To\-File} (string file\-Path)}
+\label{class_shape_ada05329b14c90bc0bd2a6b275420828d}
+
+\begin{DoxyCompactList}\small\item\em \-Write \hyperlink{class_shape}{\-Shape} \-Data \-To \-File. \end{DoxyCompactList}\item 
+\hypertarget{class_shape_ae6b402b6e70985625830c28290e624b2}{
+void \hyperlink{class_shape_ae6b402b6e70985625830c28290e624b2}{\-Read\-Data\-From\-File} (string file\-Path)}
+\label{class_shape_ae6b402b6e70985625830c28290e624b2}
+
+\begin{DoxyCompactList}\small\item\em \-Read \hyperlink{class_shape}{\-Shape} \-Data \-From \-File. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_shape_a8a101dccadb88b7369deab93d8456187}{
+static \hyperlink{class_shape}{\-Shape} \& \hyperlink{class_shape_a8a101dccadb88b7369deab93d8456187}{get\-Instance} ()}
+\label{class_shape_a8a101dccadb88b7369deab93d8456187}
+
+\begin{DoxyCompactList}\small\item\em get\-Instance method \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_vertex3_d}{\-Vertex3\-D} $\ast$ \hyperlink{class_shape_aa20089a5d490012e84cedc55d57b8625}{vertices}
+\begin{DoxyCompactList}\small\item\em \-Vertices of the shape. \end{DoxyCompactList}\item 
+\hypertarget{class_shape_a3f24f8e83fd0a29b180ea3993e834c8f}{
+int {\bfseries num\-Vertices}}
+\label{class_shape_a3f24f8e83fd0a29b180ea3993e834c8f}
+
+\item 
+\hypertarget{class_shape_a06d832711b2b48d174fb9e5ee0118410}{
+unsigned short $\ast$ \hyperlink{class_shape_a06d832711b2b48d174fb9e5ee0118410}{indices}}
+\label{class_shape_a06d832711b2b48d174fb9e5ee0118410}
+
+\begin{DoxyCompactList}\small\item\em \-Indices of vertices ordered by shape triangles every three vertex indices represent triangle to show in \-O\-P\-E\-N\-G\-L. \end{DoxyCompactList}\item 
+\hypertarget{class_shape_adeb3090d5d0b78ea2866c67c4a86afb6}{
+int {\bfseries num\-Indices}}
+\label{class_shape_adeb3090d5d0b78ea2866c67c4a86afb6}
+
+\item 
+\hypertarget{class_shape_a5de3a76f0ec7c994f07516fa821c31da}{
+\hyperlink{class_edge}{\-Edge} $\ast$ {\bfseries outline}}
+\label{class_shape_a5de3a76f0ec7c994f07516fa821c31da}
+
+\item 
+\hypertarget{class_shape_aa555f1bc8ee166d2e8f8413b90519b50}{
+int {\bfseries outline\-Size}}
+\label{class_shape_aa555f1bc8ee166d2e8f8413b90519b50}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{class_shape}{\-Shape} class\-: \-Singleton class representing shape that can be shown on \-O\-P\-E\-N\-G\-L. 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_shape_aa20089a5d490012e84cedc55d57b8625}{
+\index{\-Shape@{\-Shape}!vertices@{vertices}}
+\index{vertices@{vertices}!Shape@{\-Shape}}
+\subsubsection[{vertices}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Vertex3\-D}$\ast$ {\bf \-Shape\-::vertices}}}
+\label{class_shape_aa20089a5d490012e84cedc55d57b8625}
+
+
+\-Vertices of the shape. 
+
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{struct_vertex3_d}{\-Vertex3\-D} 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Shape.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,145 @@
+\hypertarget{interface_open_g_l_view_controller_07_08}{
+\section{\-Open\-G\-L\-View\-Controller() \-Class \-Reference}
+\label{interface_open_g_l_view_controller_07_08}\index{\-Open\-G\-L\-View\-Controller()@{\-Open\-G\-L\-View\-Controller()}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a07d81c05d721eb5656de5a2bbd73ce8d}{
+(void) -\/ {\bfseries show\-Message\-:with\-Fade\-Duration\-:with\-Show\-Duration\-:}}
+\label{interface_open_g_l_view_controller_07_08_a07d81c05d721eb5656de5a2bbd73ce8d}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_af916f2617a905d575751e2d8dc537b62}{
+(void) -\/ {\bfseries hide\-Message\-:}}
+\label{interface_open_g_l_view_controller_07_08_af916f2617a905d575751e2d8dc537b62}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a867cef7180bafc8f6fdc6913e9d4de91}{
+(\-B\-O\-O\-L) -\/ {\bfseries link\-Program\-:}}
+\label{interface_open_g_l_view_controller_07_08_a867cef7180bafc8f6fdc6913e9d4de91}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a46c6609c2ccc70a8a150c1875efaaaed}{
+(\-B\-O\-O\-L) -\/ {\bfseries validate\-Program\-:}}
+\label{interface_open_g_l_view_controller_07_08_a46c6609c2ccc70a8a150c1875efaaaed}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a69839d92dd80c8e8b74ddd8ede4e555d}{
+(void) -\/ {\bfseries start\-Animation}}
+\label{interface_open_g_l_view_controller_07_08_a69839d92dd80c8e8b74ddd8ede4e555d}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a66890ec9605facc384bfe645fc1e5a7a}{
+(void) -\/ {\bfseries stop\-Animation}}
+\label{interface_open_g_l_view_controller_07_08_a66890ec9605facc384bfe645fc1e5a7a}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a2899d87f64042f6c83a07a94afb4fec2}{
+(void) -\/ {\bfseries setup\-Controller\-Instances}}
+\label{interface_open_g_l_view_controller_07_08_a2899d87f64042f6c83a07a94afb4fec2}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_aa9e620349f91f35f49f1819521c9597b}{
+(void) -\/ {\bfseries reset\-Controller\-Instances}}
+\label{interface_open_g_l_view_controller_07_08_aa9e620349f91f35f49f1819521c9597b}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a1debbc65d283fd51037738afa2f448f7}{
+(void) -\/ {\bfseries setup\-View\-:with\-Lightning\-:}}
+\label{interface_open_g_l_view_controller_07_08_a1debbc65d283fd51037738afa2f448f7}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_ad15f26e228e1da74739260f39586f3ec}{
+(void) -\/ {\bfseries my\-Draw\-Mesh\-No\-V\-B\-Os}}
+\label{interface_open_g_l_view_controller_07_08_ad15f26e228e1da74739260f39586f3ec}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_af5a475126961611bd15e4321fadd8922}{
+(void) -\/ {\bfseries draw\-Frame}}
+\label{interface_open_g_l_view_controller_07_08_af5a475126961611bd15e4321fadd8922}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a00b84f5e458ca6db7b9e20fd269a72c4}{
+(void) -\/ {\bfseries add\-Gesture\-Recognizers}}
+\label{interface_open_g_l_view_controller_07_08_a00b84f5e458ca6db7b9e20fd269a72c4}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a5125ca77a0962037eccd0830a5388239}{
+(void) -\/ {\bfseries call\-For\-Keyboard}}
+\label{interface_open_g_l_view_controller_07_08_a5125ca77a0962037eccd0830a5388239}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a2c70da7f34973a9632bd9877b2a1df1a}{
+(void) -\/ {\bfseries start\-Activity\-Indicator}}
+\label{interface_open_g_l_view_controller_07_08_a2c70da7f34973a9632bd9877b2a1df1a}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a624346b4949f08685396596220b25826}{
+(void) -\/ {\bfseries stop\-Activity\-Indicator}}
+\label{interface_open_g_l_view_controller_07_08_a624346b4949f08685396596220b25826}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a011ccb8eba6cee70facdb308ae7b8bcd}{
+(void) -\/ {\bfseries side\-Bar\-Buttons\-Insert\-Button\-:at\-Index\-:}}
+\label{interface_open_g_l_view_controller_07_08_a011ccb8eba6cee70facdb308ae7b8bcd}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_aa793a4086f5233e598c5c58301ff1183}{
+(void) -\/ {\bfseries sidebar\-Buttons\-Clear\-Selection}}
+\label{interface_open_g_l_view_controller_07_08_aa793a4086f5233e598c5c58301ff1183}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a34b255ba8429d30f93021f963635d30b}{
+(void) -\/ {\bfseries side\-Bar\-Delete\-Row\-At\-Index\-:}}
+\label{interface_open_g_l_view_controller_07_08_a34b255ba8429d30f93021f963635d30b}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_ab3968c5c4fe12774e403859f0d81225b}{
+(void) -\/ {\bfseries back\-Button\-Pushed}}
+\label{interface_open_g_l_view_controller_07_08_ab3968c5c4fe12774e403859f0d81225b}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a23ad9d9937d46ef9b20eb9bae290562c}{
+(void) -\/ {\bfseries reset\-Button\-Pushed}}
+\label{interface_open_g_l_view_controller_07_08_a23ad9d9937d46ef9b20eb9bae290562c}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a777648918cfe9c5451e5ed88b2e9e099}{
+(void) -\/ {\bfseries save\-Button\-Pushed}}
+\label{interface_open_g_l_view_controller_07_08_a777648918cfe9c5451e5ed88b2e9e099}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a986b3390c5d09e3801369663ea20466d}{
+\-N\-S\-Timer $\ast$ {\bfseries message\-Timer}}
+\label{interface_open_g_l_view_controller_07_08_a986b3390c5d09e3801369663ea20466d}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a2d1b572477fb393d8beb68624056a017}{
+\-E\-A\-G\-L\-Context $\ast$ {\bfseries context}}
+\label{interface_open_g_l_view_controller_07_08_a2d1b572477fb393d8beb68624056a017}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_a4f6c1fc9c00d3fc2bf4ced861d3275f8}{
+\-C\-A\-Display\-Link $\ast$ {\bfseries display\-Link}}
+\label{interface_open_g_l_view_controller_07_08_a4f6c1fc9c00d3fc2bf4ced861d3275f8}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_ae6f2436dab4014617a00e246e697dd27}{
+\-U\-I\-Popover\-Controller $\ast$ {\bfseries popover}}
+\label{interface_open_g_l_view_controller_07_08_ae6f2436dab4014617a00e246e697dd27}
+
+\item 
+\hypertarget{interface_open_g_l_view_controller_07_08_af63a5158edd7d2a250aced17e4f8b438}{
+void($^\wedge$ {\bfseries action\-Sheet\-Block} )(\-N\-S\-U\-Integer)}
+\label{interface_open_g_l_view_controller_07_08_af63a5158edd7d2a250aced17e4f8b438}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Open\-G\-L/\-Open\-G\-L\-View\-Controller.\-mm\end{DoxyCompactItemize}

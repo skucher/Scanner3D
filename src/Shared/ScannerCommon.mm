@@ -1,0 +1,216 @@
+//
+//  ScannerCommon.m
+//  Scanner
+
+
+
+#import "ScannerCommon.h"
+#import <QuartzCore/QuartzCore.h>
+#import "DropShadows.h"
+@implementation ScannerCommon
+
+BOOL const displayMyNSLog = YES;
+
+NSString* const const_MeshFolderPath = @"Mesh Files";
+
+float const MESH_SCALE_FACTOR = 150;
+
+Vector3D const MESH_POSITION(90,125,-3);
+PixelVector const BACKGROUND_COLOR(62.0f,193.0f,65.0f);
+
+float const DINO_MESH_SCALE_FACTOR = 0.2463;
+Vector3D const DINO_MESH_POSITION(-0.1307,-0.1307,-0.7483);
+
++ (float) DegreesToRadians:(float) degree
+{
+    return ((degree) / 180.0 * M_PI);
+}
+
++ (CFDataRef) CopyImagePixels:(CGImageRef) inImage 
+{     
+    return CGDataProviderCopyData(CGImageGetDataProvider(inImage)); 
+}
+
++ (CGContextRef)CreateRGBBitmapContext :(size_t) pixelsWide :(size_t) pixelsHigh: (void*)bitmapData
+{
+    CGContextRef    context = NULL;
+    CGColorSpaceRef colorSpace;
+    //void *          bitmapData;
+    int             bitmapByteCount;
+    int             bitmapBytesPerRow;
+    
+    // Declare the number of bytes per row. Each pixel in the bitmap in this
+    // example is represented by 4 bytes; 8 bits each of red, green, blue, and
+    // alpha.
+    bitmapBytesPerRow   = (pixelsWide * 4);
+    bitmapByteCount     = (bitmapBytesPerRow * pixelsHigh);
+    
+    // Use the generic RGB color space.
+    colorSpace = CGColorSpaceCreateDeviceRGB();
+    if (colorSpace == NULL)
+    {
+        fprintf(stderr, "Error allocating color space\n");
+        return NULL;
+    }
+    
+    // Allocate memory for image data. This is the destination in memory
+    // where any drawing to the bitmap context will be rendered.
+    if(bitmapData == NULL)
+    {
+        bitmapData = malloc( bitmapByteCount );
+    }
+    if (bitmapData == NULL) 
+    {
+        fprintf (stderr, "Memory not allocated!");
+        CGColorSpaceRelease( colorSpace );
+        return NULL;
+    }
+    
+    // Create the bitmap context. We want pre-multiplied RGBX, 8-bits 
+    // per component. Regardless of what the source image format is 
+    // (CMYK, Grayscale, and so on) it will be converted over to the format
+    // specified here by CGBitmapContextCreate.
+    context = CGBitmapContextCreate (bitmapData,
+                                     pixelsWide,
+                                     pixelsHigh,
+                                     8,      // bits per component
+                                     bitmapBytesPerRow,
+                                     colorSpace,
+                                     kCGImageAlphaNoneSkipLast); 
+    //kCGImageAlphaPremultipliedLast);
+    if (context == NULL)
+    {
+        free (bitmapData);
+        fprintf (stderr, "Context not created!");
+    }
+    
+    // Make sure and release colorspace before returning
+    CGColorSpaceRelease( colorSpace );
+    return context;
+}
+
++(NSInvocation*) CreateNsInvocation:(id)target: (SEL) sel :(NSMethodSignature **) sig
+{
+    *sig = [[target class] instanceMethodSignatureForSelector:sel];
+    NSInvocation * myInvocation = [NSInvocation invocationWithMethodSignature:*sig];
+    [myInvocation setTarget:target];
+    [myInvocation setSelector:sel];
+    return myInvocation;
+}
+
+static void releasePixels(void *info, const void *data, size_t size)
+{
+    // do nothing
+}
+
++ (UIImage*)QcarImageToUIImage:(const QCAR::Image *) qcarImage
+{
+    int width = qcarImage->getWidth();
+    int height = qcarImage->getHeight();
+    int bitsPerComponent = 8;
+    int bitsPerPixel = QCAR::getBitsPerPixel(QCAR::RGB888);
+    int bytesPerRow = qcarImage->getBufferWidth() * bitsPerPixel / bitsPerComponent;
+    CGColorSpaceRef colorSpaceRef = CGColorSpaceCreateDeviceRGB();
+    CGBitmapInfo bitmapInfo = kCGBitmapByteOrderDefault | kCGImageAlphaNone;
+    CGColorRenderingIntent renderingIntent = kCGRenderingIntentDefault;
+    
+    CGDataProviderRef provider = CGDataProviderCreateWithData(NULL, qcarImage->getPixels(), QCAR::getBufferSize(width, height, QCAR::RGB888), releasePixels);
+    
+    CGImageRef imageRef = CGImageCreate(width, height, bitsPerComponent, bitsPerPixel, bytesPerRow, colorSpaceRef, bitmapInfo, provider, NULL, NO, renderingIntent);
+    UIImage *image = [[UIImage imageWithCGImage:imageRef] retain];
+    
+    CGDataProviderRelease(provider);
+    CGColorSpaceRelease(colorSpaceRef);
+    CGImageRelease(imageRef);
+    
+    return image;
+}
+
+inline float GetProjectionCell(float projection[3*4], int x, int y)
+{
+    float result =  projection[4*x + y];
+    return result;
+}
+
++ (void)PerformCalibration: (float[3*4]) postionMatrix:(size_t) pixelsWide :(size_t) pixelsHigh
+{
+    float cailblationMatrix[3][3];
+    
+    cailblationMatrix[0][0] = pixelsWide;
+    cailblationMatrix[0][1] = 0;
+    cailblationMatrix[0][2] = pixelsWide / 2;
+    cailblationMatrix[1][0] = 0;
+    cailblationMatrix[1][1] = pixelsHigh;
+    cailblationMatrix[1][2] = pixelsHigh / 2;
+    cailblationMatrix[2][0] = 0;
+    cailblationMatrix[2][1] = 0;
+    cailblationMatrix[2][2] = 1;
+    
+    float result[3][4];
+    
+    for(int i = 0 ; i < 3;i++)
+    {
+        for(int j = 0 ; j < 4;j++)
+        {
+            result[i][j] = 0;
+            result[i][j] +=  cailblationMatrix[i][0]*GetProjectionCell(postionMatrix,0,j);
+            result[i][j] +=  cailblationMatrix[i][1]*GetProjectionCell(postionMatrix,1,j);
+            result[i][j] +=  cailblationMatrix[i][2]*GetProjectionCell(postionMatrix,2,j);
+            printf("%f\t",result[i][j]);
+        }
+        printf("\n");
+    }
+    
+    for (int i = 0; i < 12; i++) 
+    {
+        postionMatrix[i] = result[i / 4][i % 4];
+    }
+}
+
++ (byte*)GetImageDataRgbx:(UIImage*) _image
+{
+    CGImageRef myCGImage = _image.CGImage;
+    
+    size_t width  = CGImageGetWidth(myCGImage);
+    size_t height = CGImageGetHeight(myCGImage);
+    CGContextRef cgctx = [ScannerCommon CreateRGBBitmapContext:width:height:NULL];
+    if (cgctx == NULL) 
+    { 
+        // error creating context
+        return nil;
+    }
+    
+    CGRect rect = {{0,0},{width,height}}; 
+    
+    // Draw the image to the bitmap context. Once we draw, the memory 
+    // allocated for the context for rendering will then contain the 
+    // raw image data in the specified color space.
+    CGContextDrawImage(cgctx, rect, myCGImage); 
+    
+    // Now we can get a pointer to the image data associated with the bitmap
+    // context.
+    return (byte*)CGBitmapContextGetData (cgctx);
+}
+
++ (byte*)CreateBitmapFromRgbx:(byte*) rgbxArray : (int) size 
+{
+    byte* result = new byte[size];
+    for (int rgbxIndex = 0, resultIndex = 0; rgbxIndex < size; rgbxIndex+=4, resultIndex++) {
+        result[resultIndex] = rgbxArray[rgbxIndex];
+    }
+    return result;
+}
+
++ (SculpImage*)SculptDataToUIImage:(SculptData)data
+{
+    DropShadows dropShadows;
+    int bytes = data.sizeXmap*data.sizeYmap;
+    byte* map = new byte[bytes*4];
+    dropShadows.toRgbx(map, data.map, bytes);
+    CGContextRef context = [ScannerCommon CreateRGBBitmapContext:data.sizeXmap :data.sizeYmap:map];
+    CGImageRef cgImage = CGBitmapContextCreateImage(context);
+    SculpImage* sImage = [[SculpImage alloc] initWithCGImage:cgImage:data];
+    return sImage;
+}
+
+@end

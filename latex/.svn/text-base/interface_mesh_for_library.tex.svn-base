@@ -1,0 +1,59 @@
+\hypertarget{interface_mesh_for_library}{
+\section{\-Mesh\-For\-Library \-Class \-Reference}
+\label{interface_mesh_for_library}\index{\-Mesh\-For\-Library@{\-Mesh\-For\-Library}}
+}
+
+
+\hyperlink{interface_mesh_for_library}{\-Mesh\-For\-Library}\-: object in table view rows in \hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} table view.  
+
+
+
+
+{\ttfamily \#import $<$\-Mesh\-For\-Library.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_mesh_for_library_aba7829673074ff76564396246c90b65d}{
+(id) -\/ {\bfseries init\-With\-Name\-:}}
+\label{interface_mesh_for_library_aba7829673074ff76564396246c90b65d}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_mesh_for_library_a87eec4cef17227812e701072e85c2d1c}{
+(id) + {\bfseries mesh\-With\-Name\-:}}
+\label{interface_mesh_for_library_a87eec4cef17227812e701072e85c2d1c}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_mesh_for_library_a94d801c6ede8ac906bc308525a0b8239}{
+\-N\-S\-String $\ast$ {\bfseries \-\_\-name}}
+\label{interface_mesh_for_library_a94d801c6ede8ac906bc308525a0b8239}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_mesh_for_library_a07a0e642543ff82cff8ef18bedbfa231}{
+\-N\-S\-String $\ast$ {\bfseries name}}
+\label{interface_mesh_for_library_a07a0e642543ff82cff8ef18bedbfa231}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{interface_mesh_for_library}{\-Mesh\-For\-Library}\-: object in table view rows in \hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} table view. 
+
+\begin{DoxySeeAlso}{\-See also}
+\-:\hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Mesh library/\-Mesh\-For\-Library.\-h\item 
+src/\-Controllers/\-Mesh library/\-Mesh\-For\-Library.\-m\end{DoxyCompactItemize}

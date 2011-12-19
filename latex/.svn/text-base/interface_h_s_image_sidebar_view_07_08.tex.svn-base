@@ -1,0 +1,111 @@
+\hypertarget{interface_h_s_image_sidebar_view_07_08}{
+\section{\-H\-S\-Image\-Sidebar\-View() \-Class \-Reference}
+\label{interface_h_s_image_sidebar_view_07_08}\index{\-H\-S\-Image\-Sidebar\-View()@{\-H\-S\-Image\-Sidebar\-View()}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a2baafc7600c23eff273a172340d5e606}{
+(void) -\/ {\bfseries setup\-View\-Hierarchy}}
+\label{interface_h_s_image_sidebar_view_07_08_a2baafc7600c23eff273a172340d5e606}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a3692bf621c109b19e453a75c6cb76019}{
+(void) -\/ {\bfseries setup\-Instance\-Variables}}
+\label{interface_h_s_image_sidebar_view_07_08_a3692bf621c109b19e453a75c6cb76019}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a0de3575af0d67972707389f5a00aa053}{
+(void) -\/ {\bfseries recalculate\-Scroll\-View\-Content\-Size}}
+\label{interface_h_s_image_sidebar_view_07_08_a0de3575af0d67972707389f5a00aa053}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a8f7e57cf1a40c974f110db7478ee1b2d}{
+(void) -\/ {\bfseries enqueue\-Reusable\-Image\-View\-:}}
+\label{interface_h_s_image_sidebar_view_07_08_a8f7e57cf1a40c974f110db7478ee1b2d}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_acffda285ba3ad89d8f196066e6f51023}{
+(\-U\-I\-Image\-View $\ast$) -\/ {\bfseries dequeue\-Reusable\-Image\-View}}
+\label{interface_h_s_image_sidebar_view_07_08_acffda285ba3ad89d8f196066e6f51023}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_ac252811cb6a20da2122b1b06ce121e54}{
+(\-C\-G\-Rect) -\/ {\bfseries image\-View\-Frame\-In\-Scroll\-View\-For\-Index\-:}}
+\label{interface_h_s_image_sidebar_view_07_08_ac252811cb6a20da2122b1b06ce121e54}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a2428ff7ceb8ecd5e6841fc1450d0ca12}{
+(\-C\-G\-Point) -\/ {\bfseries image\-View\-Center\-In\-Scroll\-View\-For\-Index\-:}}
+\label{interface_h_s_image_sidebar_view_07_08_a2428ff7ceb8ecd5e6841fc1450d0ca12}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_add22ba512e923b8dfc6134985b9541a6}{
+$<$ \-U\-I\-Scroll\-View\-Delegate $>$\*
+ \-U\-I\-Scroll\-View $\ast$ {\bfseries scroll\-View}}
+\label{interface_h_s_image_sidebar_view_07_08_add22ba512e923b8dfc6134985b9541a6}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_aaf9819173d213e8d8783861be564fa6c}{
+\-C\-A\-Gradient\-Layer $\ast$ {\bfseries selection\-Gradient}}
+\label{interface_h_s_image_sidebar_view_07_08_aaf9819173d213e8d8783861be564fa6c}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_ae0d2de5c87067773f29590401bf59075}{
+\-N\-S\-Mutable\-Array $\ast$ {\bfseries image\-Views}}
+\label{interface_h_s_image_sidebar_view_07_08_ae0d2de5c87067773f29590401bf59075}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_ac81e6329734fd5794316c7cbeed9c4a6}{
+\-N\-S\-Mutable\-Array $\ast$ {\bfseries views\-For\-Reuse}}
+\label{interface_h_s_image_sidebar_view_07_08_ac81e6329734fd5794316c7cbeed9c4a6}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_acf11b7325f496d0bc8fda827e4b75dda}{
+\-N\-S\-Mutable\-Index\-Set $\ast$ {\bfseries indexes\-To\-Animate}}
+\label{interface_h_s_image_sidebar_view_07_08_acf11b7325f496d0bc8fda827e4b75dda}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a0862d2e179a6667502f5d96c171edb44}{
+\-B\-O\-O\-L {\bfseries should\-Animate\-Selection\-Layer}}
+\label{interface_h_s_image_sidebar_view_07_08_a0862d2e179a6667502f5d96c171edb44}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_addc5a3ab03cb757357d27fde979f1225}{
+\-B\-O\-O\-L {\bfseries initialized}}
+\label{interface_h_s_image_sidebar_view_07_08_addc5a3ab03cb757357d27fde979f1225}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a6928a3f0c8717cfbb084a9c6a8a92e87}{
+\-B\-O\-O\-L {\bfseries is\-Horizontal}}
+\label{interface_h_s_image_sidebar_view_07_08_a6928a3f0c8717cfbb084a9c6a8a92e87}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_af200b3598837d648d6eea4c13a5466cc}{
+\-N\-S\-Timer $\ast$ {\bfseries drag\-Scroll\-Timer}}
+\label{interface_h_s_image_sidebar_view_07_08_af200b3598837d648d6eea4c13a5466cc}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_ab0f2ac61c2c89a446e0b8acc185d4b42}{
+\-U\-I\-View $\ast$ {\bfseries view\-Being\-Dragged}}
+\label{interface_h_s_image_sidebar_view_07_08_ab0f2ac61c2c89a446e0b8acc185d4b42}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a881f28ff919698ea532d1b2d7c81565a}{
+\-N\-S\-Integer {\bfseries dragged\-View\-Old\-Index}}
+\label{interface_h_s_image_sidebar_view_07_08_a881f28ff919698ea532d1b2d7c81565a}
+
+\item 
+\hypertarget{interface_h_s_image_sidebar_view_07_08_a05ec0f916df00b06c76911e285f48888}{
+\-C\-G\-Point {\bfseries drag\-Offset}}
+\label{interface_h_s_image_sidebar_view_07_08_a05ec0f916df00b06c76911e285f48888}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Q\-C\-A\-R/\-Slidebar/\-H\-S\-Image\-Sidebar\-View.\-m\end{DoxyCompactItemize}

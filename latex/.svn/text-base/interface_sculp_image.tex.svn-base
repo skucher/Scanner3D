@@ -1,0 +1,79 @@
+\hypertarget{interface_sculp_image}{
+\section{\-Sculp\-Image \-Class \-Reference}
+\label{interface_sculp_image}\index{\-Sculp\-Image@{\-Sculp\-Image}}
+}
+
+
+\-U\-I\-Mage extension that holds \-Sculp\-Data in it.  
+
+
+
+
+{\ttfamily \#import $<$\-Sculp\-Image.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_sculp_image_af042bf65d947f9797abfcf5ba93d4d15}{init\-With\-C\-G\-Image\-::}
+\begin{DoxyCompactList}\small\item\em init with cgiref and \-\_\-sculpdata \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_sculpt_data}{\-Sculpt\-Data} \hyperlink{interface_sculp_image_aaa7634b10052c4de32a643ad171b3e5d}{sculpt\-Data}
+\begin{DoxyCompactList}\small\item\em sculpt\-Data of the image \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_sculp_image_a5e7b406c69bacf7adb88a73d13b532b9}{
+\-B\-O\-O\-L \hyperlink{interface_sculp_image_a5e7b406c69bacf7adb88a73d13b532b9}{sculpted}}
+\label{interface_sculp_image_a5e7b406c69bacf7adb88a73d13b532b9}
+
+\begin{DoxyCompactList}\small\item\em is sculped \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-U\-I\-Mage extension that holds \-Sculp\-Data in it. 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{interface_sculp_image_af042bf65d947f9797abfcf5ba93d4d15}{
+\index{\-Sculp\-Image@{\-Sculp\-Image}!init\-With\-C\-G\-Image\-::@{init\-With\-C\-G\-Image\-::}}
+\index{init\-With\-C\-G\-Image\-::@{init\-With\-C\-G\-Image\-::}!SculpImage@{\-Sculp\-Image}}
+\subsubsection[{init\-With\-C\-G\-Image\-::}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-C\-G\-Image\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-C\-G\-Image\-Ref)}]{cgi}
+\item[{:({\bf \-Sculpt\-Data})}]{\-\_\-sculpt\-Data}
+\end{DoxyParamCaption}
+}}
+\label{interface_sculp_image_af042bf65d947f9797abfcf5ba93d4d15}
+
+
+init with cgiref and \-\_\-sculpdata 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em cgi} & -\/ cgiref \\
+\hline
+{\em \-\_\-sculpdata} & -\/ sculpting data \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{interface_sculp_image_aaa7634b10052c4de32a643ad171b3e5d}{
+\index{\-Sculp\-Image@{\-Sculp\-Image}!sculpt\-Data@{sculpt\-Data}}
+\index{sculpt\-Data@{sculpt\-Data}!SculpImage@{\-Sculp\-Image}}
+\subsubsection[{sculpt\-Data}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Sculpt\-Data}) {\bf sculpt\-Data}}}
+\label{interface_sculp_image_aaa7634b10052c4de32a643ad171b3e5d}
+
+
+sculpt\-Data of the image 
+
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{struct_sculpt_data}{\-Sculpt\-Data} 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Shared/\-Sculp\-Image.\-h\item 
+src/\-Shared/\-Sculp\-Image.\-mm\end{DoxyCompactItemize}

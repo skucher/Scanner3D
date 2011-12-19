@@ -1,0 +1,27 @@
+\hypertarget{struct_vertex3_d_info}{
+\section{\-Vertex3\-D\-Info \-Struct \-Reference}
+\label{struct_vertex3_d_info}\index{\-Vertex3\-D\-Info@{\-Vertex3\-D\-Info}}
+}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_vertex3_d_info_a1a5ca2aadc5d5fbdaf9f64f93be39056}{
+\hyperlink{struct_vertex3_d}{\-Vertex3\-D} $\ast$ {\bfseries vertex}}
+\label{struct_vertex3_d_info_a1a5ca2aadc5d5fbdaf9f64f93be39056}
+
+\item 
+\hypertarget{struct_vertex3_d_info_a8ab0d36b306ce1548cd732a450efd726}{
+int {\bfseries position}}
+\label{struct_vertex3_d_info_a8ab0d36b306ce1548cd732a450efd726}
+
+\item 
+\hypertarget{struct_vertex3_d_info_a4761572cab4590d39d2d2abccc6fb4cb}{
+int {\bfseries number\-Of\-Points}}
+\label{struct_vertex3_d_info_a4761572cab4590d39d2d2abccc6fb4cb}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Mesh.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,54 @@
+\hypertarget{interface_image_preview_controller}{
+\section{\-Image\-Preview\-Controller \-Class \-Reference}
+\label{interface_image_preview_controller}\index{\-Image\-Preview\-Controller@{\-Image\-Preview\-Controller}}
+}
+
+
+\hyperlink{interface_image_preview_controller}{\-Image\-Preview\-Controller}\-: controller responsible for displaying images from \hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller}.  
+
+
+
+
+{\ttfamily \#import $<$\-Image\-Preview\-Controller.\-h$>$}
+
+\-Inheritance diagram for \-Image\-Preview\-Controller\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_image_preview_controller}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_image_preview_controller_ac7ad1b8ac194b30cdb3c2829757a662e}{
+(id) -\/ {\bfseries init\-With\-Nib\-Name\-:bundle\-:image\-:}}
+\label{interface_image_preview_controller_ac7ad1b8ac194b30cdb3c2829757a662e}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_image_preview_controller_a3ef615356c02351913803c7175c06958}{
+\-U\-I\-Image $\ast$ {\bfseries \-\_\-image}}
+\label{interface_image_preview_controller_a3ef615356c02351913803c7175c06958}
+
+\item 
+\hypertarget{interface_image_preview_controller_ad14a7f4053ede966104aa4aa8e5d9e89}{
+\-U\-I\-Scroll\-View $\ast$ {\bfseries image\-Scroll\-View}}
+\label{interface_image_preview_controller_ad14a7f4053ede966104aa4aa8e5d9e89}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{interface_image_preview_controller}{\-Image\-Preview\-Controller}\-: controller responsible for displaying images from \hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller}. 
+
+\-The implementation code is taken from \-W\-W\-D\-C2010 release\-:\-Tap\-To\-Zoom example \begin{DoxySeeAlso}{\-See also}
+\-: \hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller}, wwdc2010 release\-:\-Tap\-To\-Zoom \-Example 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Image expand/\-Image\-Preview\-Controller.\-h\item 
+src/\-Controllers/\-Image expand/\-Image\-Preview\-Controller.\-m\end{DoxyCompactItemize}

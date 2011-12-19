@@ -1,0 +1,34 @@
+\hypertarget{struct_g_r_i_d_c_e_l_l}{
+\section{\-G\-R\-I\-D\-C\-E\-L\-L \-Struct \-Reference}
+\label{struct_g_r_i_d_c_e_l_l}\index{\-G\-R\-I\-D\-C\-E\-L\-L@{\-G\-R\-I\-D\-C\-E\-L\-L}}
+}
+
+
+\hyperlink{struct_g_r_i_d_c_e_l_l}{\-G\-R\-I\-D\-C\-E\-L\-L} represents 2$\ast$2$\ast$2 in grid.  
+
+
+
+
+{\ttfamily \#include $<$\-Marching\-Cubes.\-h$>$}
+
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_g_r_i_d_c_e_l_l_a20697089e4d4363a546cfa3d02ed5da4}{
+\hyperlink{class_vector3_d_ex}{\-Vector3\-D\-Ex} {\bfseries p} \mbox{[}8\mbox{]}}
+\label{struct_g_r_i_d_c_e_l_l_a20697089e4d4363a546cfa3d02ed5da4}
+
+\item 
+\hypertarget{struct_g_r_i_d_c_e_l_l_a9a22092f622d467d83b7f4f337a340f5}{
+float {\bfseries val} \mbox{[}8\mbox{]}}
+\label{struct_g_r_i_d_c_e_l_l_a9a22092f622d467d83b7f4f337a340f5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{struct_g_r_i_d_c_e_l_l}{\-G\-R\-I\-D\-C\-E\-L\-L} represents 2$\ast$2$\ast$2 in grid. 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Marching\-Cubes.\-h\end{DoxyCompactItemize}

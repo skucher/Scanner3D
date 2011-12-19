@@ -1,0 +1,160 @@
+10
+
+dir
+4
+https://subversion.assembla.com/svn/gip-project/_trunk/src
+https://subversion.assembla.com/svn/gip-project
+
+
+
+2011-12-05T08:05:23.655329Z
+4
+sergeyku4er
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ec70bc9a-b16d-4f7e-b5d0-fe02978e4856
+
+Configurations
+dir
+
+Controllers
+dir
+
+Cube Icon.png
+file
+
+
+
+
+2011-11-17T12:35:34.000000Z
+1050c0076c69d78b65e9b39ca8a5ca66
+2011-12-05T08:05:23.655329Z
+4
+sergeyku4er
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4769
+
+Default-Landscape.png
+file
+
+
+
+
+2011-11-19T18:00:44.000000Z
+8d2137c925185be837b1aa466a55062c
+2011-12-05T08:05:23.655329Z
+4
+sergeyku4er
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+266288
+
+Default-Landscape~ipad.png
+file
+
+
+
+
+2011-11-19T18:00:44.000000Z
+8d2137c925185be837b1aa466a55062c
+2011-12-05T08:05:23.655329Z
+4
+sergeyku4er
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+266288
+
+Drop Shadows
+dir
+
+OpenGL supporting files
+dir
+
+Resources
+dir
+
+Resources-iPad
+dir
+
+Scanner.xcodeproj
+dir
+
+Sculptor
+dir
+
+Shared
+dir
+
+media
+dir
+

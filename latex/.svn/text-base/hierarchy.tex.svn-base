@@ -1,0 +1,62 @@
+\section{\-Class \-Hierarchy}
+\-This inheritance list is sorted roughly, but not completely, alphabetically\-:\begin{DoxyCompactList}
+\item \contentsline{section}{\-Background\-Worker}{\pageref{interface_background_worker}}{}
+\item \contentsline{section}{\-Background\-Worker()}{\pageref{interface_background_worker_07_08}}{}
+\item \contentsline{section}{\-Color\-R\-G\-B}{\pageref{struct_color_r_g_b}}{}
+\item \contentsline{section}{\-Credits}{\pageref{interface_credits}}{}
+\item \contentsline{section}{\-Delegate}{\pageref{interface_delegate}}{}
+\item \contentsline{section}{\-Drop\-Shadows}{\pageref{class_drop_shadows}}{}
+\item \contentsline{section}{\-E\-A\-G\-L\-View\-O\-G\-L}{\pageref{interface_e_a_g_l_view_o_g_l}}{}
+\item \contentsline{section}{\-E\-A\-G\-L\-View\-O\-G\-L(\-Private\-Methods)}{\pageref{interface_e_a_g_l_view_o_g_l_07_private_methods_08}}{}
+\item \contentsline{section}{\-E\-A\-G\-L\-View\-Q\-C\-A\-R}{\pageref{interface_e_a_g_l_view_q_c_a_r}}{}
+\item \contentsline{section}{\-E\-A\-G\-L\-View\-Q\-C\-A\-R(\-Private\-Methods)}{\pageref{interface_e_a_g_l_view_q_c_a_r_07_private_methods_08}}{}
+\item \contentsline{section}{\-Edge}{\pageref{class_edge}}{}
+\item \contentsline{section}{\-Edge\-Ex}{\pageref{class_edge_ex}}{}
+\item \contentsline{section}{\-Edges\-Info}{\pageref{struct_edges_info}}{}
+\item \contentsline{section}{\-Editable\-Detail\-Cell}{\pageref{interface_editable_detail_cell}}{}
+\item \contentsline{section}{\-Event}{\pageref{interface_event}}{}
+\item \contentsline{section}{\-G\-R\-I\-D\-C\-E\-L\-L}{\pageref{struct_g_r_i_d_c_e_l_l}}{}
+\item \contentsline{section}{\-H\-S\-Image\-Sidebar\-View}{\pageref{interface_h_s_image_sidebar_view}}{}
+\item \contentsline{section}{\-H\-S\-Image\-Sidebar\-View()}{\pageref{interface_h_s_image_sidebar_view_07_08}}{}
+\item \contentsline{section}{$<$\-H\-S\-Image\-Sidebar\-View\-Delegate$>$}{\pageref{protocol_h_s_image_sidebar_view_delegate-p}}{}
+\item \contentsline{section}{\-Image\-Preview\-Controller(\-Utility\-Methods)}{\pageref{interface_image_preview_controller_07_utility_methods_08}}{}
+\item \contentsline{section}{\-Mesh}{\pageref{class_mesh}}{}
+\item \contentsline{section}{\-Mesh\-For\-Library}{\pageref{interface_mesh_for_library}}{}
+\item \contentsline{section}{\-Mesh\-Library\-View\-Controller}{\pageref{interface_mesh_library_view_controller}}{}
+\item \contentsline{section}{\-Mesh\-Library\-View\-Controller()}{\pageref{interface_mesh_library_view_controller_07_08}}{}
+\item \contentsline{section}{\-Mesh\-Margins$<$ \-Size $>$}{\pageref{class_mesh_margins}}{}
+\item \contentsline{section}{\-Open\-G\-L\-View\-Controller}{\pageref{interface_open_g_l_view_controller}}{}
+\item \contentsline{section}{\-Open\-G\-L\-View\-Controller()}{\pageref{interface_open_g_l_view_controller_07_08}}{}
+\item \contentsline{section}{\-Pixel\-Vector}{\pageref{class_pixel_vector}}{}
+\item \contentsline{section}{\-Q\-C\-A\-R\-Button\-Overlay}{\pageref{interface_q_c_a_r_button_overlay}}{}
+\item \contentsline{section}{\-Q\-C\-A\-R\-Button\-Overlay()}{\pageref{interface_q_c_a_r_button_overlay_07_08}}{}
+\item \contentsline{section}{\-Q\-C\-A\-R\-View\-Controller}{\pageref{interface_q_c_a_r_view_controller}}{}
+\item \contentsline{section}{\-Q\-C\-A\-R\-View\-Controller()}{\pageref{interface_q_c_a_r_view_controller_07_08}}{}
+\item \contentsline{section}{\-Root\-View\-Controller}{\pageref{interface_root_view_controller}}{}
+\item \contentsline{section}{\-Root\-View\-Controller()}{\pageref{interface_root_view_controller_07_08}}{}
+\item \contentsline{section}{\-Scanner\-App\-Delegate}{\pageref{interface_scanner_app_delegate}}{}
+\item \contentsline{section}{\-Scanner\-Common}{\pageref{interface_scanner_common}}{}
+\item \contentsline{section}{\-Sculp\-Image}{\pageref{interface_sculp_image}}{}
+\item \contentsline{section}{\-Sculpt\-Data}{\pageref{struct_sculpt_data}}{}
+\item \contentsline{section}{\-Sculptor$<$ \-Size $>$}{\pageref{class_sculptor}}{}
+\item \contentsline{section}{\-Shader\-Utils}{\pageref{class_shader_utils}}{}
+\item \contentsline{section}{\-Shape}{\pageref{class_shape}}{}
+\item \contentsline{section}{\-Tap\-Detecting\-Image\-View}{\pageref{interface_tap_detecting_image_view}}{}
+\item \contentsline{section}{$<$\-Tap\-Detecting\-Image\-View\-Delegate$>$}{\pageref{protocol_tap_detecting_image_view_delegate-p}}{}
+\begin{DoxyCompactList}
+\item \contentsline{section}{\-Image\-Preview\-Controller}{\pageref{interface_image_preview_controller}}{}
+\end{DoxyCompactList}
+\item \contentsline{section}{\-Texture}{\pageref{interface_texture}}{}
+\item \contentsline{section}{\-Texture(\-Private\-Methods)}{\pageref{interface_texture_07_private_methods_08}}{}
+\item \contentsline{section}{\-Triangle}{\pageref{class_triangle}}{}
+\item \contentsline{section}{\-Vector2\-D}{\pageref{class_vector2_d}}{}
+\begin{DoxyCompactList}
+\item \contentsline{section}{\-Vector2\-D\-Ex}{\pageref{class_vector2_d_ex}}{}
+\end{DoxyCompactList}
+\item \contentsline{section}{\-Vector3\-D}{\pageref{class_vector3_d}}{}
+\begin{DoxyCompactList}
+\item \contentsline{section}{\-Vector3\-D\-Ex}{\pageref{class_vector3_d_ex}}{}
+\end{DoxyCompactList}
+\item \contentsline{section}{\-Vertex3\-D}{\pageref{struct_vertex3_d}}{}
+\item \contentsline{section}{\-Vertex3\-D\-Info}{\pageref{struct_vertex3_d_info}}{}
+\end{DoxyCompactList}

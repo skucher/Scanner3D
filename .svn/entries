@@ -1,0 +1,77 @@
+10
+
+dir
+3
+https://subversion.assembla.com/svn/gip-project/_trunk
+https://subversion.assembla.com/svn/gip-project
+
+
+
+2011-12-05T07:49:24.161987Z
+3
+sergeyku4er
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ec70bc9a-b16d-4f7e-b5d0-fe02978e4856
+
+Doxyfile
+file
+4
+
+
+
+2011-11-30T22:28:43.000000Z
+2ebdee87dbd25b93148eb720ea09e71b
+2011-12-05T08:05:23.655329Z
+4
+sergeyku4er
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+76479
+
+html
+dir
+
+include
+dir
+
+latex
+dir
+
+lib
+dir
+
+src
+dir
+

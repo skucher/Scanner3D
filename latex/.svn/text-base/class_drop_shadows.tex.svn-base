@@ -1,0 +1,113 @@
+\hypertarget{class_drop_shadows}{
+\section{\-Drop\-Shadows \-Class \-Reference}
+\label{class_drop_shadows}\index{\-Drop\-Shadows@{\-Drop\-Shadows}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_drop_shadows_a778725a335663ce46bc81ee53f02c1d7}{
+void {\bfseries get\-Circle} (byte round\mbox{[}$\,$\mbox{]}, int radius)}
+\label{class_drop_shadows_a778725a335663ce46bc81ee53f02c1d7}
+
+\item 
+\hypertarget{class_drop_shadows_a2ade05ae875ea19ccd483bcc5cbf8955}{
+bool {\bfseries do\-Erosion\-Square} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int \-X, int \-Y, int radius)}
+\label{class_drop_shadows_a2ade05ae875ea19ccd483bcc5cbf8955}
+
+\item 
+\hypertarget{class_drop_shadows_ab8d4f6af8deece127c2a48cdd7e4ad0c}{
+bool {\bfseries do\-Erosion\-Square\-With\-Mask} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int \-X, int \-Y, byte mask\mbox{[}$\,$\mbox{]}, int radius)}
+\label{class_drop_shadows_ab8d4f6af8deece127c2a48cdd7e4ad0c}
+
+\item 
+\hypertarget{class_drop_shadows_ae7d65d16afb0b1394e4d4ccd86c62ba7}{
+bool {\bfseries do\-Delution\-Square} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int \-X, int \-Y, int radius)}
+\label{class_drop_shadows_ae7d65d16afb0b1394e4d4ccd86c62ba7}
+
+\item 
+\hypertarget{class_drop_shadows_a3abb010b98653c60985eaa4088f4902f}{
+bool {\bfseries do\-Delusion\-Square\-With\-Mask} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int \-X, int \-Y, byte mask\mbox{[}$\,$\mbox{]}, int radius)}
+\label{class_drop_shadows_a3abb010b98653c60985eaa4088f4902f}
+
+\item 
+\hypertarget{class_drop_shadows_a8595847a264865ef1dca079aa67328da}{
+void {\bfseries do\-Erosion\-Shape} (byte map\mbox{[}$\,$\mbox{]}, byte new\-Map\mbox{[}$\,$\mbox{]}, int width, int height, int radius)}
+\label{class_drop_shadows_a8595847a264865ef1dca079aa67328da}
+
+\item 
+\hypertarget{class_drop_shadows_a01e81f56946c2d2200e6f224ab9a157d}{
+void {\bfseries do\-Delution\-Shape} (byte map\mbox{[}$\,$\mbox{]}, byte new\-Map\mbox{[}$\,$\mbox{]}, int width, int height, int radius)}
+\label{class_drop_shadows_a01e81f56946c2d2200e6f224ab9a157d}
+
+\item 
+\hypertarget{class_drop_shadows_a30af65822943f3598a49148c96547e1c}{
+void {\bfseries do\-Close\-Shape} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int radius)}
+\label{class_drop_shadows_a30af65822943f3598a49148c96547e1c}
+
+\item 
+\hypertarget{class_drop_shadows_afffcde1241f2ad69f53b87ab7b295a4e}{
+void {\bfseries do\-Open\-Shape\-With\-Mask} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int radius)}
+\label{class_drop_shadows_afffcde1241f2ad69f53b87ab7b295a4e}
+
+\item 
+\hypertarget{class_drop_shadows_afde9408cf7d61f82a2644bca07fa213d}{
+void {\bfseries do\-Close\-Shape\-With\-Mask} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int radius)}
+\label{class_drop_shadows_afde9408cf7d61f82a2644bca07fa213d}
+
+\item 
+\hypertarget{class_drop_shadows_abb41f89903f6074d0b59e38f2bd6024e}{
+void {\bfseries do\-Close\-Shape\-With\-Mask} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int erosion\-Radius, int delution\-Radius)}
+\label{class_drop_shadows_abb41f89903f6074d0b59e38f2bd6024e}
+
+\item 
+\hypertarget{class_drop_shadows_aae0d3164fbe4d10b982d14477503891e}{
+void {\bfseries do\-Open\-Shape\-With\-Mask} (byte map\mbox{[}$\,$\mbox{]}, int width, int height, int erosion\-Radius, int delution\-Radius)}
+\label{class_drop_shadows_aae0d3164fbe4d10b982d14477503891e}
+
+\item 
+\hypertarget{class_drop_shadows_a372df3fe54ca6effff6ff9fe6f6bf2ed}{
+\hyperlink{class_pixel_vector}{\-Pixel\-Vector} {\bfseries get\-Vector\-From\-Map} (byte map\mbox{[}$\,$\mbox{]}, int x, int y, int width)}
+\label{class_drop_shadows_a372df3fe54ca6effff6ff9fe6f6bf2ed}
+
+\item 
+\hypertarget{class_drop_shadows_a4f80d46126c0429bb3ab7d3a13f4b003}{
+void {\bfseries to\-Flat} (byte old\-Map\mbox{[}$\,$\mbox{]}, byte new\-Map\mbox{[}$\,$\mbox{]})}
+\label{class_drop_shadows_a4f80d46126c0429bb3ab7d3a13f4b003}
+
+\item 
+\hypertarget{class_drop_shadows_ae9c2e3571eb634a9fd8a75c341e8bf68}{
+void {\bfseries do\-Smart\-Drop\-Shadows} (byte $\ast$map, byte $\ast$flat, int width, int height, \hyperlink{class_pixel_vector}{\-Pixel\-Vector} bg\-Color)}
+\label{class_drop_shadows_ae9c2e3571eb634a9fd8a75c341e8bf68}
+
+\item 
+\hypertarget{class_drop_shadows_a798c69602268ef688801083d5b213b9e}{
+void {\bfseries to\-Image} (byte new\-Map\mbox{[}$\,$\mbox{]}, byte old\-Map\mbox{[}$\,$\mbox{]}, int bytes)}
+\label{class_drop_shadows_a798c69602268ef688801083d5b213b9e}
+
+\item 
+\hypertarget{class_drop_shadows_a124f9687cd63302f7d9ea7992d28b227}{
+void {\bfseries to\-Rgbx} (byte rgbx\mbox{[}$\,$\mbox{]}, byte old\-Map\mbox{[}$\,$\mbox{]}, int bytes)}
+\label{class_drop_shadows_a124f9687cd63302f7d9ea7992d28b227}
+
+\item 
+\hypertarget{class_drop_shadows_a6f83f219be33c347c608bc0e0f0be91a}{
+void {\bfseries do\-Erosion\-Shape\-With\-Mask} (byte old\-Flat\mbox{[}$\,$\mbox{]}, byte new\-Flat\mbox{[}$\,$\mbox{]}, int width, int height, int radius)}
+\label{class_drop_shadows_a6f83f219be33c347c608bc0e0f0be91a}
+
+\item 
+\hypertarget{class_drop_shadows_af6abfdc4b6cc0a99a29f67f15b283b4e}{
+void {\bfseries do\-Delution\-Shape\-With\-Mask} (byte old\-Flat\mbox{[}$\,$\mbox{]}, byte new\-Flat\mbox{[}$\,$\mbox{]}, int width, int height, int radius)}
+\label{class_drop_shadows_af6abfdc4b6cc0a99a29f67f15b283b4e}
+
+\item 
+\hypertarget{class_drop_shadows_a16460d0d31bbd61a36edd34d9a148879}{
+\hyperlink{class_pixel_vector}{\-Pixel\-Vector} {\bfseries get\-Common\-Color} (byte rgbx\mbox{[}$\,$\mbox{]}, int size)}
+\label{class_drop_shadows_a16460d0d31bbd61a36edd34d9a148879}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Drop Shadows/\-Drop\-Shadows.\-h\item 
+src/\-Drop Shadows/\-Drop\-Shadows.\-cpp\end{DoxyCompactItemize}

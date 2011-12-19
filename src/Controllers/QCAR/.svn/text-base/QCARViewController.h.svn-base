@@ -1,0 +1,46 @@
+/*==============================================================================
+Copyright (c) 2010-2011 QUALCOMM Austria Research Center GmbH.
+All Rights Reserved.
+Qualcomm Confidential and Proprietary
+==============================================================================*/
+
+#import "ScannerCommon.h"
+#import "Sculptor.h"
+#import "DropShadows.h"
+#import "Delegate.h"
+#import <QCAR/Matrices.h>
+#import <UIKit/UIKit.h>
+
+@class QCARButtonOverlay;
+@class EAGLViewQCAR;
+@class SculpImage;
+
+/**QCARViewController: Controller class responsible for QCAR library UI
+ *@see QCARButtonOverlay, EAGLViewQCAR, SculpImage
+ */
+@interface QCARViewController : UIViewController
+{
+    @private
+    Sculptor<kResolution>* sculptor;
+    
+    DropShadows dropShadows;
+    PixelVector bgColor;
+    SculpImage** imageptr;
+}
+/**Button overaly controller that which overlays the qcar view*/
+@property (nonatomic, retain) QCARButtonOverlay* buttonOverlay;
+
+/**called by QCARButtonOveraly controller when take picture button is pushed */
+-(void)takePictureButtonPushed;
+/**called by QCARButtonOveraly controller when display Mesh button is pushed */
+-(void)displayMeshButtonPushed:(BOOL)toSculp;
+/**called by QCARButtonOveraly controller when expand image button is pushed */
+-(void)expandImageButtonPushed;
+
+/**Performs sculpting algorithm on the provided image. 
+ *@param currentImage: pointer to the image ment for sculpting
+ *@param imageIndex  : image's index in the sidebar in QCARButtonOveraly controller
+ */
+-(void)sculptImage:(SculpImage*)currentImage index:(NSInteger)imageIndex;
+
+@end

@@ -1,0 +1,35 @@
+\hypertarget{interface_scanner_app_delegate}{
+\section{\-Scanner\-App\-Delegate \-Class \-Reference}
+\label{interface_scanner_app_delegate}\index{\-Scanner\-App\-Delegate@{\-Scanner\-App\-Delegate}}
+}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_scanner_app_delegate_a4ad841e507aa12b5a0f59db11bcbaeb0}{
+\-U\-I\-Window $\ast$ {\bfseries window}}
+\label{interface_scanner_app_delegate_a4ad841e507aa12b5a0f59db11bcbaeb0}
+
+\item 
+\hypertarget{interface_scanner_app_delegate_a0a9c66f68374505c8670eb722eb5c5ed}{
+\-U\-I\-Navigation\-Controller $\ast$ {\bfseries navigation\-Controller}}
+\label{interface_scanner_app_delegate_a0a9c66f68374505c8670eb722eb5c5ed}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_scanner_app_delegate_a98bb5982fdbb2d00154c1b5f8488123d}{
+\-I\-B\-Outlet \-U\-I\-Window $\ast$ {\bfseries window}}
+\label{interface_scanner_app_delegate_a98bb5982fdbb2d00154c1b5f8488123d}
+
+\item 
+\hypertarget{interface_scanner_app_delegate_a092d60f1362e957f4695eafe6adf4aa3}{
+\-I\-B\-Outlet \-U\-I\-Navigation\-Controller $\ast$ {\bfseries navigation\-Controller}}
+\label{interface_scanner_app_delegate_a092d60f1362e957f4695eafe6adf4aa3}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Configurations/\-Scanner\-App\-Delegate.\-h\end{DoxyCompactItemize}

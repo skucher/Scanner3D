@@ -1,0 +1,85 @@
+\hypertarget{class_vector2_d}{
+\section{\-Vector2\-D \-Class \-Reference}
+\label{class_vector2_d}\index{\-Vector2\-D@{\-Vector2\-D}}
+}
+
+
+\hyperlink{class_vector2_d}{\-Vector2\-D} is vector 2\-D representation.  
+
+
+
+
+{\ttfamily \#include $<$\-Vector2\-D.\-h$>$}
+
+\-Inheritance diagram for \-Vector2\-D\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vector2_d}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_vector2_d_a0cbd5dc90e04f8ffb665717ae503e781}{
+\hyperlink{class_vector2_d_a0cbd5dc90e04f8ffb665717ae503e781}{\-Vector2\-D} (void)}
+\label{class_vector2_d_a0cbd5dc90e04f8ffb665717ae503e781}
+
+\begin{DoxyCompactList}\small\item\em parameterless constructor \end{DoxyCompactList}\item 
+\hyperlink{class_vector2_d_a166ca1df158a260a7cbf3b57ff147a4a}{\-Vector2\-D} (float x, float y)
+\begin{DoxyCompactList}\small\item\em constructor\-: \end{DoxyCompactList}\item 
+\hypertarget{class_vector2_d_a527601e47976bcfdac2520817bfee675}{
+float {\bfseries get\-X} ()}
+\label{class_vector2_d_a527601e47976bcfdac2520817bfee675}
+
+\item 
+\hypertarget{class_vector2_d_a5b797fb62a3c21ced0cc8e27afd62f8b}{
+float {\bfseries get\-Y} ()}
+\label{class_vector2_d_a5b797fb62a3c21ced0cc8e27afd62f8b}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_vector2_d_a6627650b8d06939c387474590478c9a5}{
+float {\bfseries \-\_\-x}}
+\label{class_vector2_d_a6627650b8d06939c387474590478c9a5}
+
+\item 
+\hypertarget{class_vector2_d_a245dd1230a735c09bcbcc1a525b1ee78}{
+float {\bfseries \-\_\-y}}
+\label{class_vector2_d_a245dd1230a735c09bcbcc1a525b1ee78}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{class_vector2_d}{\-Vector2\-D} is vector 2\-D representation. 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_vector2_d_a166ca1df158a260a7cbf3b57ff147a4a}{
+\index{\-Vector2\-D@{\-Vector2\-D}!\-Vector2\-D@{\-Vector2\-D}}
+\index{\-Vector2\-D@{\-Vector2\-D}!Vector2D@{\-Vector2\-D}}
+\subsubsection[{\-Vector2\-D}]{\setlength{\rightskip}{0pt plus 5cm}\-Vector2\-D\-::\-Vector2\-D (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{class_vector2_d_a166ca1df158a260a7cbf3b57ff147a4a}
+
+
+constructor\-: 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em x,\-:} & x location \\
+\hline
+{\em y,\-:} & y location \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Vector2\-D.\-h\item 
+src/\-Sculptor/\-Vector2\-D.\-cpp\end{DoxyCompactItemize}

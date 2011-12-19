@@ -1,0 +1,58 @@
+\section{\-Class \-List}
+\-Here are the classes, structs, unions and interfaces with brief descriptions\-:\begin{DoxyCompactList}
+\item\contentsline{section}{\hyperlink{interface_background_worker}{\-Background\-Worker} \\*\-Class that represents backgroud worker thread }{\pageref{interface_background_worker}}{}
+\item\contentsline{section}{\hyperlink{interface_background_worker_07_08}{\-Background\-Worker()} }{\pageref{interface_background_worker_07_08}}{}
+\item\contentsline{section}{\hyperlink{struct_color_r_g_b}{\-Color\-R\-G\-B} \\*\-Represens color in \-R\-G\-B\-T format }{\pageref{struct_color_r_g_b}}{}
+\item\contentsline{section}{\hyperlink{interface_credits}{\-Credits} \\*\hyperlink{interface_credits}{\-Credits}\-: controller responsible for the credits screen }{\pageref{interface_credits}}{}
+\item\contentsline{section}{\hyperlink{interface_delegate}{\-Delegate} \\*\-Represents delegate (function pointer) }{\pageref{interface_delegate}}{}
+\item\contentsline{section}{\hyperlink{class_drop_shadows}{\-Drop\-Shadows} }{\pageref{class_drop_shadows}}{}
+\item\contentsline{section}{\hyperlink{interface_e_a_g_l_view_o_g_l}{\-E\-A\-G\-L\-View\-O\-G\-L} \\*\hyperlink{interface_e_a_g_l_view_o_g_l}{\-E\-A\-G\-L\-View\-O\-G\-L}\-: this class wraps the \-C\-A\-E\-A\-G\-L\-Layer from \-Core\-Animation into a convenient \-U\-I\-View subclass }{\pageref{interface_e_a_g_l_view_o_g_l}}{}
+\item\contentsline{section}{\hyperlink{interface_e_a_g_l_view_o_g_l_07_private_methods_08}{\-E\-A\-G\-L\-View\-O\-G\-L(\-Private\-Methods)} }{\pageref{interface_e_a_g_l_view_o_g_l_07_private_methods_08}}{}
+\item\contentsline{section}{\hyperlink{interface_e_a_g_l_view_q_c_a_r}{\-E\-A\-G\-L\-View\-Q\-C\-A\-R} \\*\hyperlink{interface_e_a_g_l_view_q_c_a_r}{\-E\-A\-G\-L\-View\-Q\-C\-A\-R}\-: this class wraps the \-C\-A\-E\-A\-G\-L\-Layer from \-Core\-Animation into a convenient \-U\-I\-View subclass }{\pageref{interface_e_a_g_l_view_q_c_a_r}}{}
+\item\contentsline{section}{\hyperlink{interface_e_a_g_l_view_q_c_a_r_07_private_methods_08}{\-E\-A\-G\-L\-View\-Q\-C\-A\-R(\-Private\-Methods)} }{\pageref{interface_e_a_g_l_view_q_c_a_r_07_private_methods_08}}{}
+\item\contentsline{section}{\hyperlink{class_edge}{\-Edge} \\*\hyperlink{class_edge}{\-Edge}\-: \-Represents line connected between two \hyperlink{class_vector3_d_ex}{\-Vector3\-D\-Ex} }{\pageref{class_edge}}{}
+\item\contentsline{section}{\hyperlink{class_edge_ex}{\-Edge\-Ex} \\*\hyperlink{class_edge}{\-Edge}\-: \-Represents line connected between two \hyperlink{class_vector3_d_ex}{\-Vector3\-D\-Ex} }{\pageref{class_edge_ex}}{}
+\item\contentsline{section}{\hyperlink{struct_edges_info}{\-Edges\-Info} }{\pageref{struct_edges_info}}{}
+\item\contentsline{section}{\hyperlink{interface_editable_detail_cell}{\-Editable\-Detail\-Cell} \\*\hyperlink{interface_editable_detail_cell}{\-Editable\-Detail\-Cell}\-: table view cell in \hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} table view }{\pageref{interface_editable_detail_cell}}{}
+\item\contentsline{section}{\hyperlink{interface_event}{\-Event} \\*\hyperlink{interface_event}{\-Event} representation }{\pageref{interface_event}}{}
+\item\contentsline{section}{\hyperlink{struct_g_r_i_d_c_e_l_l}{\-G\-R\-I\-D\-C\-E\-L\-L} \\*\hyperlink{struct_g_r_i_d_c_e_l_l}{\-G\-R\-I\-D\-C\-E\-L\-L} represents 2$\ast$2$\ast$2 in grid }{\pageref{struct_g_r_i_d_c_e_l_l}}{}
+\item\contentsline{section}{\hyperlink{interface_h_s_image_sidebar_view}{\-H\-S\-Image\-Sidebar\-View} \\*\hyperlink{interface_h_s_image_sidebar_view}{\-H\-S\-Image\-Sidebar\-View}\-: sider bar view }{\pageref{interface_h_s_image_sidebar_view}}{}
+\item\contentsline{section}{\hyperlink{interface_h_s_image_sidebar_view_07_08}{\-H\-S\-Image\-Sidebar\-View()} }{\pageref{interface_h_s_image_sidebar_view_07_08}}{}
+\item\contentsline{section}{\hyperlink{protocol_h_s_image_sidebar_view_delegate-p}{$<$\-H\-S\-Image\-Sidebar\-View\-Delegate$>$} \\*\hyperlink{protocol_h_s_image_sidebar_view_delegate-p}{\-H\-S\-Image\-Sidebar\-View\-Delegate}\-: \hyperlink{interface_h_s_image_sidebar_view}{\-H\-S\-Image\-Sidebar\-View} delegate }{\pageref{protocol_h_s_image_sidebar_view_delegate-p}}{}
+\item\contentsline{section}{\hyperlink{interface_image_preview_controller}{\-Image\-Preview\-Controller} \\*\hyperlink{interface_image_preview_controller}{\-Image\-Preview\-Controller}\-: controller responsible for displaying images from \hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller} }{\pageref{interface_image_preview_controller}}{}
+\item\contentsline{section}{\hyperlink{interface_image_preview_controller_07_utility_methods_08}{\-Image\-Preview\-Controller(\-Utility\-Methods)} }{\pageref{interface_image_preview_controller_07_utility_methods_08}}{}
+\item\contentsline{section}{\hyperlink{class_mesh}{\-Mesh} \\*\hyperlink{class_mesh}{\-Mesh} is a class that holds 3\-D mesh }{\pageref{class_mesh}}{}
+\item\contentsline{section}{\hyperlink{interface_mesh_for_library}{\-Mesh\-For\-Library} \\*\hyperlink{interface_mesh_for_library}{\-Mesh\-For\-Library}\-: object in table view rows in \hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} table view }{\pageref{interface_mesh_for_library}}{}
+\item\contentsline{section}{\hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} \\*\hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller}\-: controller responsible for displaying the list of all the saved meshes }{\pageref{interface_mesh_library_view_controller}}{}
+\item\contentsline{section}{\hyperlink{interface_mesh_library_view_controller_07_08}{\-Mesh\-Library\-View\-Controller()} }{\pageref{interface_mesh_library_view_controller_07_08}}{}
+\item\contentsline{section}{\hyperlink{class_mesh_margins}{\-Mesh\-Margins$<$ Size $>$} \\*\hyperlink{class_mesh_margins}{\-Mesh\-Margins} represents margines for 3\-D structure\-: 1 }{\pageref{class_mesh_margins}}{}
+\item\contentsline{section}{\hyperlink{interface_open_g_l_view_controller}{\-Open\-G\-L\-View\-Controller} \\*\hyperlink{interface_open_g_l_view_controller}{\-Open\-G\-L\-View\-Controller}\-: \-Controller responsible for displaying the mesh of the 3\-D object }{\pageref{interface_open_g_l_view_controller}}{}
+\item\contentsline{section}{\hyperlink{interface_open_g_l_view_controller_07_08}{\-Open\-G\-L\-View\-Controller()} }{\pageref{interface_open_g_l_view_controller_07_08}}{}
+\item\contentsline{section}{\hyperlink{class_pixel_vector}{\-Pixel\-Vector} \\*\-Vector that represents pixel }{\pageref{class_pixel_vector}}{}
+\item\contentsline{section}{\hyperlink{interface_q_c_a_r_button_overlay}{\-Q\-C\-A\-R\-Button\-Overlay} \\*\hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller}\-: \-Controller class responsible for \-U\-I layer of \hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller} }{\pageref{interface_q_c_a_r_button_overlay}}{}
+\item\contentsline{section}{\hyperlink{interface_q_c_a_r_button_overlay_07_08}{\-Q\-C\-A\-R\-Button\-Overlay()} }{\pageref{interface_q_c_a_r_button_overlay_07_08}}{}
+\item\contentsline{section}{\hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller} \\*\hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller}\-: \-Controller class responsible for \-Q\-C\-A\-R library \-U\-I }{\pageref{interface_q_c_a_r_view_controller}}{}
+\item\contentsline{section}{\hyperlink{interface_q_c_a_r_view_controller_07_08}{\-Q\-C\-A\-R\-View\-Controller()} }{\pageref{interface_q_c_a_r_view_controller_07_08}}{}
+\item\contentsline{section}{\hyperlink{interface_root_view_controller}{\-Root\-View\-Controller} \\*\hyperlink{interface_root_view_controller}{\-Root\-View\-Controller}\-: \-Root controller of the application which coardinates all the other controllers }{\pageref{interface_root_view_controller}}{}
+\item\contentsline{section}{\hyperlink{interface_root_view_controller_07_08}{\-Root\-View\-Controller()} }{\pageref{interface_root_view_controller_07_08}}{}
+\item\contentsline{section}{\hyperlink{interface_scanner_app_delegate}{\-Scanner\-App\-Delegate} }{\pageref{interface_scanner_app_delegate}}{}
+\item\contentsline{section}{\hyperlink{interface_scanner_common}{\-Scanner\-Common} \\*\-Common methods and fields class }{\pageref{interface_scanner_common}}{}
+\item\contentsline{section}{\hyperlink{interface_sculp_image}{\-Sculp\-Image} \\*\-U\-I\-Mage extension that holds \-Sculp\-Data in it }{\pageref{interface_sculp_image}}{}
+\item\contentsline{section}{\hyperlink{struct_sculpt_data}{\-Sculpt\-Data} \\*\-The struct represents data to be sculped }{\pageref{struct_sculpt_data}}{}
+\item\contentsline{section}{\hyperlink{class_sculptor}{\-Sculptor$<$ Size $>$} \\*\hyperlink{class_sculptor}{\-Sculptor}\-: is template class where template argument is its size\par
+ \hyperlink{class_sculptor}{\-Sculptor} holds 3\-D shape representation and responsible to \-:\par
+ 1 }{\pageref{class_sculptor}}{}
+\item\contentsline{section}{\hyperlink{class_shader_utils}{\-Shader\-Utils} }{\pageref{class_shader_utils}}{}
+\item\contentsline{section}{\hyperlink{class_shape}{\-Shape} \\*\hyperlink{class_shape}{\-Shape} class\-: \-Singleton class representing shape that can be shown on \-O\-P\-E\-N\-G\-L }{\pageref{class_shape}}{}
+\item\contentsline{section}{\hyperlink{interface_tap_detecting_image_view}{\-Tap\-Detecting\-Image\-View} \\*\hyperlink{interface_tap_detecting_image_view}{\-Tap\-Detecting\-Image\-View}\-: \-U\-I\-Image\-View of \hyperlink{interface_image_preview_controller}{\-Image\-Preview\-Controller} }{\pageref{interface_tap_detecting_image_view}}{}
+\item\contentsline{section}{\hyperlink{protocol_tap_detecting_image_view_delegate-p}{$<$\-Tap\-Detecting\-Image\-View\-Delegate$>$} \\*\-Protocol for the tap-\/detecting image view's delegate }{\pageref{protocol_tap_detecting_image_view_delegate-p}}{}
+\item\contentsline{section}{\hyperlink{interface_texture}{\-Texture} }{\pageref{interface_texture}}{}
+\item\contentsline{section}{\hyperlink{interface_texture_07_private_methods_08}{\-Texture(\-Private\-Methods)} }{\pageref{interface_texture_07_private_methods_08}}{}
+\item\contentsline{section}{\hyperlink{class_triangle}{\-Triangle} \\*\hyperlink{class_triangle}{\-Triangle} representation containes 3 points, normal of the triangle,and its edges }{\pageref{class_triangle}}{}
+\item\contentsline{section}{\hyperlink{class_vector2_d}{\-Vector2\-D} \\*\hyperlink{class_vector2_d}{\-Vector2\-D} is vector 2\-D representation }{\pageref{class_vector2_d}}{}
+\item\contentsline{section}{\hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \\*\hyperlink{class_vector2_d}{\-Vector2\-D} is extended vector 2\-D representation\-: needed for performance improval its lenght calculated only once on creation }{\pageref{class_vector2_d_ex}}{}
+\item\contentsline{section}{\hyperlink{class_vector3_d}{\-Vector3\-D} \\*\hyperlink{class_vector3_d}{\-Vector3\-D} is vector 3\-D representation }{\pageref{class_vector3_d}}{}
+\item\contentsline{section}{\hyperlink{class_vector3_d_ex}{\-Vector3\-D\-Ex} \\*\hyperlink{class_vector3_d_ex}{\-Vector3\-D\-Ex} is extendex \hyperlink{class_vector3_d}{\-Vector3\-D}\-: needed for performance improval its lenght calculated only once on creation }{\pageref{class_vector3_d_ex}}{}
+\item\contentsline{section}{\hyperlink{struct_vertex3_d}{\-Vertex3\-D} \\*\-Struct that represents \-Vertex in 3\-D, location, normal and color of the point }{\pageref{struct_vertex3_d}}{}
+\item\contentsline{section}{\hyperlink{struct_vertex3_d_info}{\-Vertex3\-D\-Info} }{\pageref{struct_vertex3_d_info}}{}
+\end{DoxyCompactList}

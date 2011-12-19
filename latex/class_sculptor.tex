@@ -1,0 +1,219 @@
+\hypertarget{class_sculptor}{
+\section{\-Sculptor$<$ \-Size $>$ \-Class \-Template \-Reference}
+\label{class_sculptor}\index{\-Sculptor$<$ Size $>$@{\-Sculptor$<$ Size $>$}}
+}
+
+
+\hyperlink{class_sculptor}{\-Sculptor}\-: is template class where template argument is its size\par
+ \hyperlink{class_sculptor}{\-Sculptor} holds 3\-D shape representation and responsible to \-:\par
+ 1.  
+
+
+
+
+{\ttfamily \#include $<$\-Sculptor.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_sculptor_aca9204b989d39026a4cd523227d40067}{\-Sculptor} (float \-\_\-scale\-Rate, const \hyperlink{class_vector3_d}{\-Vector3\-D} \&translation)
+\begin{DoxyCompactList}\small\item\em \-The sculpture is initialised to be \-S\-I\-Z\-E $\ast$ \-S\-I\-Z\-E $\ast$ \-S\-I\-Z\-E cube. \end{DoxyCompactList}\item 
+void \hyperlink{class_sculptor_add308e168244fa0d07d2856af5c43b0c}{\-Sculp} (\hyperlink{struct_sculpt_data}{\-Sculpt\-Data} $\ast$sculp\-Data, \-Sculptor\-Mode mode=\-A\-C\-C\-U\-R\-A\-T\-E)
+\item 
+\hypertarget{class_sculptor_ab376e9423eea844a4f85417c19ac77ee}{
+void \hyperlink{class_sculptor_ab376e9423eea844a4f85417c19ac77ee}{\-Reset} ()}
+\label{class_sculptor_ab376e9423eea844a4f85417c19ac77ee}
+
+\begin{DoxyCompactList}\small\item\em \-Resets the structure to full cube. \end{DoxyCompactList}\item 
+\hypertarget{class_sculptor_a70a33030993ca5aff496d80e819adb3e}{
+void \hyperlink{class_sculptor_a70a33030993ca5aff496d80e819adb3e}{\-To\-Shape} (\-Sculptor\-Mode mode=\-A\-C\-C\-U\-R\-A\-T\-E, float scale\-Constant=1)}
+\label{class_sculptor_a70a33030993ca5aff496d80e819adb3e}
+
+\begin{DoxyCompactList}\small\item\em \-Generate triangle mesh from 3\-D object. \end{DoxyCompactList}\item 
+\hypertarget{class_sculptor_ad32b0f2a5edaed5f1bbe92391c9a648c}{
+void \hyperlink{class_sculptor_ad32b0f2a5edaed5f1bbe92391c9a648c}{\-Create\-Outline} ()}
+\label{class_sculptor_ad32b0f2a5edaed5f1bbe92391c9a648c}
+
+\begin{DoxyCompactList}\small\item\em \-Gets the outline of the cube. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_sculptor_a9527eaa7ec950024314a7778063d6772}{
+void {\bfseries \-Sculp\-Fast} (\hyperlink{struct_sculpt_data}{\-Sculpt\-Data} $\ast$sculp\-Data)}
+\label{class_sculptor_a9527eaa7ec950024314a7778063d6772}
+
+\item 
+\hypertarget{class_sculptor_aa5897869efa0559357bee9eb0b0b31d7}{
+void {\bfseries \-Sculp\-Accurate} (\hyperlink{struct_sculpt_data}{\-Sculpt\-Data} $\ast$sculp\-Data)}
+\label{class_sculptor_aa5897869efa0559357bee9eb0b0b31d7}
+
+\item 
+\hypertarget{class_sculptor_a070acb8071b901e67cb62c58373ce79f}{
+char {\bfseries \-Get\-Min} (char min, \-Sculptor\-Mode mode)}
+\label{class_sculptor_a070acb8071b901e67cb62c58373ce79f}
+
+\item 
+\hypertarget{class_sculptor_a207e0ad690ecf8e041470e7240e7f5b9}{
+char {\bfseries \-Get\-Max} (char max, \-Sculptor\-Mode mode)}
+\label{class_sculptor_a207e0ad690ecf8e041470e7240e7f5b9}
+
+\item 
+\hypertarget{class_sculptor_a517ab1d1a9b799de364da47b2103276e}{
+void {\bfseries \-Build\-Cell} (char x, char y, char z, \hyperlink{struct_g_r_i_d_c_e_l_l}{\-G\-R\-I\-D\-C\-E\-L\-L} $\ast$cell, \-Sculptor\-Mode mode)}
+\label{class_sculptor_a517ab1d1a9b799de364da47b2103276e}
+
+\item 
+\hypertarget{class_sculptor_aff396509915252257d3d37672a76e30d}{
+float {\bfseries \-Transform} (char point\-Index, float translate)}
+\label{class_sculptor_aff396509915252257d3d37672a76e30d}
+
+\item 
+\hypertarget{class_sculptor_a743a6bea494735a36ffbafad251cf4c6}{
+void {\bfseries \-Poligolize\-Cell} (char x, char y, char z, \-Sculptor\-Mode mode)}
+\label{class_sculptor_a743a6bea494735a36ffbafad251cf4c6}
+
+\item 
+\hypertarget{class_sculptor_a5da48c24572119b728c4376fa7af4264}{
+void {\bfseries \-Turn\-On} (unsigned char x, unsigned char y, unsigned char z)}
+\label{class_sculptor_a5da48c24572119b728c4376fa7af4264}
+
+\item 
+\hypertarget{class_sculptor_aa122ff8d85da533d52dc8cf590858495}{
+void {\bfseries \-Turn\-Off} (unsigned char x, unsigned char y, unsigned char z)}
+\label{class_sculptor_aa122ff8d85da533d52dc8cf590858495}
+
+\item 
+\hypertarget{class_sculptor_a00c1cdf043ee5f1544cc90dc8adecf57}{
+unsigned char {\bfseries \-Is\-On} (unsigned char x, unsigned char y, unsigned char z)}
+\label{class_sculptor_a00c1cdf043ee5f1544cc90dc8adecf57}
+
+\item 
+\hypertarget{class_sculptor_a55bf3b872f6386a6dd93a52af746ee5e}{
+\hyperlink{class_vector2_d}{\-Vector2\-D} {\bfseries \-Project} (\hyperlink{class_vector3_d_ex}{\-Vector3\-D\-Ex} \&vector, float projection\mbox{[}3 $\ast$4\mbox{]})}
+\label{class_sculptor_a55bf3b872f6386a6dd93a52af746ee5e}
+
+\item 
+\hypertarget{class_sculptor_adc24f7813e64c7c95160c72f1db95077}{
+\-Voxel\-Status {\bfseries is\-In\-Map} (\hyperlink{class_vector2_d}{\-Vector2\-D} \&xy, unsigned char $\ast$\-\_\-map, size\-\_\-t size\-X, size\-\_\-t size\-Y)}
+\label{class_sculptor_adc24f7813e64c7c95160c72f1db95077}
+
+\item 
+\hypertarget{class_sculptor_a97276be7154497bc13e4119084e773f4}{
+float {\bfseries \-Get\-Projection\-Cell} (float projection\mbox{[}3 $\ast$4\mbox{]}, int x, int y)}
+\label{class_sculptor_a97276be7154497bc13e4119084e773f4}
+
+\item 
+\hypertarget{class_sculptor_af8092bbf213a1a506ac5bf351edc3fe8}{
+\hyperlink{class_vector3_d}{\-Vector3\-D} {\bfseries \-Get\-Vector\-Position} (byte x, byte y, byte z)}
+\label{class_sculptor_af8092bbf213a1a506ac5bf351edc3fe8}
+
+\item 
+\hypertarget{class_sculptor_a136ccdfdb78fd4451b8ac36c1976a890}{
+\hyperlink{struct_vertex3_d}{\-Vertex3\-D} {\bfseries \-Get\-Vertex\-Position} (byte x, byte y, byte z, float transpancy)}
+\label{class_sculptor_a136ccdfdb78fd4451b8ac36c1976a890}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_sculptor_a5f8f06b0fce9888892b853867b1fc43b}{
+unsigned char {\bfseries sculpture} \mbox{[}\-Size\mbox{]}\mbox{[}\-Size\mbox{]}\mbox{[}\-Size $>$$>$3\mbox{]}}
+\label{class_sculptor_a5f8f06b0fce9888892b853867b1fc43b}
+
+\item 
+\hypertarget{class_sculptor_a0540ffab729203c9038d81422f26c2d1}{
+\hyperlink{class_mesh_margins}{\-Mesh\-Margins}$<$ \-Size $>$ {\bfseries mesh\-Margins}}
+\label{class_sculptor_a0540ffab729203c9038d81422f26c2d1}
+
+\item 
+\hypertarget{class_sculptor_a907c197690f2be2ed2a8c3fc02fe39c3}{
+\hyperlink{class_mesh}{\-Mesh} {\bfseries mesh}}
+\label{class_sculptor_a907c197690f2be2ed2a8c3fc02fe39c3}
+
+\item 
+\hypertarget{class_sculptor_adaf0a8d610a219aa7ce93ade9b41bbff}{
+float {\bfseries scale\-Rate}}
+\label{class_sculptor_adaf0a8d610a219aa7ce93ade9b41bbff}
+
+\item 
+\hypertarget{class_sculptor_a1e9ed70667cf674510d19782476128d3}{
+float {\bfseries translation\-Rate\-X}}
+\label{class_sculptor_a1e9ed70667cf674510d19782476128d3}
+
+\item 
+\hypertarget{class_sculptor_a195327997bceaa64630454c7c9523d5b}{
+float {\bfseries translation\-Rate\-Y}}
+\label{class_sculptor_a195327997bceaa64630454c7c9523d5b}
+
+\item 
+\hypertarget{class_sculptor_acfb1b340d2e8e15efdddc3ac87f479c5}{
+float {\bfseries translation\-Rate\-Z}}
+\label{class_sculptor_acfb1b340d2e8e15efdddc3ac87f479c5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\subsubsection*{template$<$int \-Size$>$class Sculptor$<$ Size $>$}
+
+\hyperlink{class_sculptor}{\-Sculptor}\-: is template class where template argument is its size\par
+ \hyperlink{class_sculptor}{\-Sculptor} holds 3\-D shape representation and responsible to \-:\par
+ 1. 
+
+\-Sculp it using \-Sculp\-Data 2. \-Convert it to 3\-D mesh \begin{DoxySeeAlso}{\-See also}
+\hyperlink{class_mesh}{\-Mesh}, \-Sculp\-Data 
+\end{DoxySeeAlso}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_sculptor_aca9204b989d39026a4cd523227d40067}{
+\index{\-Sculptor@{\-Sculptor}!\-Sculptor@{\-Sculptor}}
+\index{\-Sculptor@{\-Sculptor}!Sculptor@{\-Sculptor}}
+\subsubsection[{\-Sculptor}]{\setlength{\rightskip}{0pt plus 5cm}template$<$int \-Size$>$ {\bf \-Sculptor}$<$ \-Size $>$\-::{\bf \-Sculptor} (
+\begin{DoxyParamCaption}
+\item[{float}]{\-\_\-scale\-Rate, }
+\item[{const {\bf \-Vector3\-D} \&}]{translation}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_sculptor_aca9204b989d39026a4cd523227d40067}
+
+
+\-The sculpture is initialised to be \-S\-I\-Z\-E $\ast$ \-S\-I\-Z\-E $\ast$ \-S\-I\-Z\-E cube. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-scale\-Rate} & \-: defines the ditance between voxels in suplture \\
+\hline
+{\em translation} & \-: defines the position of the shape in 3\-D world \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_sculptor_add308e168244fa0d07d2856af5c43b0c}{
+\index{\-Sculptor@{\-Sculptor}!\-Sculp@{\-Sculp}}
+\index{\-Sculp@{\-Sculp}!Sculptor@{\-Sculptor}}
+\subsubsection[{\-Sculp}]{\setlength{\rightskip}{0pt plus 5cm}template$<$int \-Size$>$ void {\bf \-Sculptor}$<$ \-Size $>$\-::\-Sculp (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Sculpt\-Data} $\ast$}]{sculp\-Data, }
+\item[{\-Sculptor\-Mode}]{mode = {\ttfamily \-A\-C\-C\-U\-R\-A\-T\-E}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_sculptor_add308e168244fa0d07d2856af5c43b0c}
+
+\begin{DoxyParams}{\-Parameters}
+{\em sculp\-Data} & \-: picture and its position marix to perform sculp with \\
+\hline
+{\em mode} & \-: the mode of sculpting \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{struct_sculpt_data}{\-Sculpt\-Data} 
+
+\-Sculptor\-Mode 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Sculptor.\-h\end{DoxyCompactItemize}

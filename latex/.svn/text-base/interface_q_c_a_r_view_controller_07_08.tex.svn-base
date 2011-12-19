@@ -1,0 +1,40 @@
+\hypertarget{interface_q_c_a_r_view_controller_07_08}{
+\section{\-Q\-C\-A\-R\-View\-Controller() \-Class \-Reference}
+\label{interface_q_c_a_r_view_controller_07_08}\index{\-Q\-C\-A\-R\-View\-Controller()@{\-Q\-C\-A\-R\-View\-Controller()}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_q_c_a_r_view_controller_07_08_a13f4f6243f43ab00b7a6d69be5d795eb}{
+(void) -\/ {\bfseries \-Process\-Image\-:my\-C\-G\-Image\-:sculpt\-Data\-:}}
+\label{interface_q_c_a_r_view_controller_07_08_a13f4f6243f43ab00b7a6d69be5d795eb}
+
+\item 
+\hypertarget{interface_q_c_a_r_view_controller_07_08_a4a387601e569bcd5514c075f4658ad4d}{
+(void) -\/ {\bfseries button\-Overlay\-Init}}
+\label{interface_q_c_a_r_view_controller_07_08_a4a387601e569bcd5514c075f4658ad4d}
+
+\item 
+\hypertarget{interface_q_c_a_r_view_controller_07_08_ae426fc16b457ad408526b5cbea47b749}{
+(\hyperlink{interface_e_a_g_l_view_q_c_a_r}{\-E\-A\-G\-L\-View\-Q\-C\-A\-R} $\ast$) -\/ {\bfseries get\-Q\-C\-A\-R\-View}}
+\label{interface_q_c_a_r_view_controller_07_08_ae426fc16b457ad408526b5cbea47b749}
+
+\item 
+\hypertarget{interface_q_c_a_r_view_controller_07_08_a2a951857c4b4a8d2fba8d267698e1b98}{
+(void) -\/ {\bfseries perform\-Sculpt\-:}}
+\label{interface_q_c_a_r_view_controller_07_08_a2a951857c4b4a8d2fba8d267698e1b98}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_q_c_a_r_view_controller_07_08_a4a2b84af01d1561b9f467b42a48d4e48}{
+void($^\wedge$ {\bfseries action\-Sheet\-Block} )(\-N\-S\-U\-Integer)}
+\label{interface_q_c_a_r_view_controller_07_08_a4a2b84af01d1561b9f467b42a48d4e48}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Q\-C\-A\-R/\-Q\-C\-A\-R\-View\-Controller.\-mm\end{DoxyCompactItemize}

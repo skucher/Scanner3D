@@ -1,0 +1,101 @@
+\hypertarget{interface_background_worker}{
+\section{\-Background\-Worker \-Class \-Reference}
+\label{interface_background_worker}\index{\-Background\-Worker@{\-Background\-Worker}}
+}
+
+
+\-Class that represents backgroud worker thread.  
+
+
+
+
+{\ttfamily \#import $<$\-Background\-Worker.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_background_worker_a38833019945d89e8fb1c8e4b528a5d68}{
+(bool) -\/ \hyperlink{interface_background_worker_a38833019945d89e8fb1c8e4b528a5d68}{run\-Worker\-Async}}
+\label{interface_background_worker_a38833019945d89e8fb1c8e4b528a5d68}
+
+\begin{DoxyCompactList}\small\item\em start running in new thread \end{DoxyCompactList}\item 
+\hypertarget{interface_background_worker_ae9eb3017576faae7d1c504223a2e1fe5}{
+(void) -\/ \hyperlink{interface_background_worker_ae9eb3017576faae7d1c504223a2e1fe5}{reset}}
+\label{interface_background_worker_ae9eb3017576faae7d1c504223a2e1fe5}
+
+\begin{DoxyCompactList}\small\item\em reset event methods \end{DoxyCompactList}\item 
+\hypertarget{interface_background_worker_ab95aeb10bfede1fa3dd01d5b3665dacd}{
+(void) -\/ \hyperlink{interface_background_worker_ab95aeb10bfede1fa3dd01d5b3665dacd}{cancel\-Run\-Worker\-Async}}
+\label{interface_background_worker_ab95aeb10bfede1fa3dd01d5b3665dacd}
+
+\begin{DoxyCompactList}\small\item\em cancel thread run \end{DoxyCompactList}\item 
+\hypertarget{interface_background_worker_a335cf56e270e7ad64242426630891a3f}{
+(bool) -\/ \hyperlink{interface_background_worker_a335cf56e270e7ad64242426630891a3f}{is\-Finished}}
+\label{interface_background_worker_a335cf56e270e7ad64242426630891a3f}
+
+\begin{DoxyCompactList}\small\item\em is background worker finished \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_background_worker_a9fb3148d6e9c7e2c91d93ba943da1212}{
+\-N\-S\-Thread $\ast$ {\bfseries background\-Worker}}
+\label{interface_background_worker_a9fb3148d6e9c7e2c91d93ba943da1212}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_event}{\-Event} $\ast$ \hyperlink{interface_background_worker_a23f3772d45b9471294508281602196af}{on\-Do\-Work}
+\begin{DoxyCompactList}\small\item\em \-Here we sign the excecution methods that will run in different thread one after another. \end{DoxyCompactList}\item 
+\hyperlink{interface_event}{\-Event} $\ast$ \hyperlink{interface_background_worker_a71f9bdc848a3ab29551644569db05ffa}{on\-Run\-Worker\-Completed}
+\begin{DoxyCompactList}\small\item\em \-Here we sign the methods that will run after excecution on main thread one after another. \end{DoxyCompactList}\item 
+\hyperlink{interface_event}{\-Event} $\ast$ \hyperlink{interface_background_worker_abe061a3706b92b0a9f10998d6758a0db}{on\-Before\-Work}
+\begin{DoxyCompactList}\small\item\em \-The method that will run before excecution on main thread. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Class that represents backgroud worker thread. 
+
+\subsection{\-Property \-Documentation}
+\hypertarget{interface_background_worker_abe061a3706b92b0a9f10998d6758a0db}{
+\index{\-Background\-Worker@{\-Background\-Worker}!on\-Before\-Work@{on\-Before\-Work}}
+\index{on\-Before\-Work@{on\-Before\-Work}!BackgroundWorker@{\-Background\-Worker}}
+\subsubsection[{on\-Before\-Work}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Event}$\ast$) on\-Before\-Work\hspace{0.3cm}{\ttfamily  \mbox{[}read, retain\mbox{]}}}}
+\label{interface_background_worker_abe061a3706b92b0a9f10998d6758a0db}
+
+
+\-The method that will run before excecution on main thread. 
+
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{interface_event}{\-Event} 
+\end{DoxySeeAlso}
+\hypertarget{interface_background_worker_a23f3772d45b9471294508281602196af}{
+\index{\-Background\-Worker@{\-Background\-Worker}!on\-Do\-Work@{on\-Do\-Work}}
+\index{on\-Do\-Work@{on\-Do\-Work}!BackgroundWorker@{\-Background\-Worker}}
+\subsubsection[{on\-Do\-Work}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Event}$\ast$) on\-Do\-Work\hspace{0.3cm}{\ttfamily  \mbox{[}read, retain\mbox{]}}}}
+\label{interface_background_worker_a23f3772d45b9471294508281602196af}
+
+
+\-Here we sign the excecution methods that will run in different thread one after another. 
+
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{interface_event}{\-Event} 
+\end{DoxySeeAlso}
+\hypertarget{interface_background_worker_a71f9bdc848a3ab29551644569db05ffa}{
+\index{\-Background\-Worker@{\-Background\-Worker}!on\-Run\-Worker\-Completed@{on\-Run\-Worker\-Completed}}
+\index{on\-Run\-Worker\-Completed@{on\-Run\-Worker\-Completed}!BackgroundWorker@{\-Background\-Worker}}
+\subsubsection[{on\-Run\-Worker\-Completed}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Event}$\ast$) on\-Run\-Worker\-Completed\hspace{0.3cm}{\ttfamily  \mbox{[}read, retain\mbox{]}}}}
+\label{interface_background_worker_a71f9bdc848a3ab29551644569db05ffa}
+
+
+\-Here we sign the methods that will run after excecution on main thread one after another. 
+
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{interface_event}{\-Event} 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Shared/\-Background\-Worker.\-h\item 
+src/\-Shared/\-Background\-Worker.\-m\end{DoxyCompactItemize}

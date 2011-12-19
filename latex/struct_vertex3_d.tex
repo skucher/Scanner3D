@@ -1,0 +1,99 @@
+\hypertarget{struct_vertex3_d}{
+\section{\-Vertex3\-D \-Struct \-Reference}
+\label{struct_vertex3_d}\index{\-Vertex3\-D@{\-Vertex3\-D}}
+}
+
+
+struct that represents \-Vertex in 3\-D, location, normal and color of the point  
+
+
+
+
+{\ttfamily \#include $<$\-Vertex3\-D.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_vertex3_d_a41dee42f7502bdc4b04be44a4bf4bdbc}{
+\hyperlink{struct_vertex3_d_a41dee42f7502bdc4b04be44a4bf4bdbc}{\-Vertex3\-D} ()}
+\label{struct_vertex3_d_a41dee42f7502bdc4b04be44a4bf4bdbc}
+
+\begin{DoxyCompactList}\small\item\em parameterless constructor \end{DoxyCompactList}\item 
+\hypertarget{struct_vertex3_d_a64d6e3da5660d8a3e89563fec8f871c1}{
+\hyperlink{struct_vertex3_d_a64d6e3da5660d8a3e89563fec8f871c1}{\-Vertex3\-D} (const \hyperlink{struct_vertex3_d}{\-Vertex3\-D} \&other)}
+\label{struct_vertex3_d_a64d6e3da5660d8a3e89563fec8f871c1}
+
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+\hyperlink{struct_vertex3_d_ad6205b666934b9f11e4c6c3e5d06952d}{\-Vertex3\-D} (\hyperlink{class_vector3_d}{\-Vector3\-D} \&position, \hyperlink{struct_color_r_g_b}{\-Color\-R\-G\-B} \&color, \hyperlink{class_vector3_d}{\-Vector3\-D} \&normal)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_vertex3_d_ad11c646be24edcd8bbc9e5c3e1e98e24}{
+\hyperlink{class_vector3_d}{\-Vector3\-D} \hyperlink{struct_vertex3_d_ad11c646be24edcd8bbc9e5c3e1e98e24}{\-\_\-position}}
+\label{struct_vertex3_d_ad11c646be24edcd8bbc9e5c3e1e98e24}
+
+\begin{DoxyCompactList}\small\item\em position of the vertex \end{DoxyCompactList}\item 
+\hypertarget{struct_vertex3_d_af1f486e7dba44702a88a523148c9d876}{
+\hyperlink{struct_color_r_g_b}{\-Color\-R\-G\-B} \hyperlink{struct_vertex3_d_af1f486e7dba44702a88a523148c9d876}{\-\_\-color}}
+\label{struct_vertex3_d_af1f486e7dba44702a88a523148c9d876}
+
+\begin{DoxyCompactList}\small\item\em color of the vertex \end{DoxyCompactList}\item 
+\hypertarget{struct_vertex3_d_a4941371b994171d0538e94e2bc9d9d07}{
+\hyperlink{class_vector3_d}{\-Vector3\-D} \hyperlink{struct_vertex3_d_a4941371b994171d0538e94e2bc9d9d07}{\-\_\-normal}}
+\label{struct_vertex3_d_a4941371b994171d0538e94e2bc9d9d07}
+
+\begin{DoxyCompactList}\small\item\em surface normal at vertex location \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_vertex3_d_aab9e82ac7afc670976c2805bd53b3a82}{
+ofstream \& \hyperlink{struct_vertex3_d_aab9e82ac7afc670976c2805bd53b3a82}{operator$<$$<$} (ofstream \&stream, \hyperlink{struct_vertex3_d}{\-Vertex3\-D} vertex)}
+\label{struct_vertex3_d_aab9e82ac7afc670976c2805bd53b3a82}
+
+\begin{DoxyCompactList}\small\item\em serialize \end{DoxyCompactList}\item 
+\hypertarget{struct_vertex3_d_a6bfc504d5c9ec8fb89ce3668f436aeff}{
+void \hyperlink{struct_vertex3_d_a6bfc504d5c9ec8fb89ce3668f436aeff}{operator$>$$>$} (stringstream \&ss, \hyperlink{struct_vertex3_d}{\-Vertex3\-D} \&vertex)}
+\label{struct_vertex3_d_a6bfc504d5c9ec8fb89ce3668f436aeff}
+
+\begin{DoxyCompactList}\small\item\em deserialize \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+struct that represents \-Vertex in 3\-D, location, normal and color of the point 
+
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{class_vector3_d}{\-Vector3\-D},\hyperlink{struct_color_r_g_b}{\-Color\-R\-G\-B} 
+\end{DoxySeeAlso}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{struct_vertex3_d_ad6205b666934b9f11e4c6c3e5d06952d}{
+\index{\-Vertex3\-D@{\-Vertex3\-D}!\-Vertex3\-D@{\-Vertex3\-D}}
+\index{\-Vertex3\-D@{\-Vertex3\-D}!Vertex3D@{\-Vertex3\-D}}
+\subsubsection[{\-Vertex3\-D}]{\setlength{\rightskip}{0pt plus 5cm}\-Vertex3\-D\-::\-Vertex3\-D (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Vector3\-D} \&}]{position, }
+\item[{{\bf \-Color\-R\-G\-B} \&}]{color, }
+\item[{{\bf \-Vector3\-D} \&}]{normal}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{struct_vertex3_d_ad6205b666934b9f11e4c6c3e5d06952d}
+
+
+constructor 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em position,\-:} & the vertex position \\
+\hline
+{\em color,\-:} & the vertex color \\
+\hline
+{\em normal,\-:} & surface normal at vertex location \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Vertex3\-D.\-h\end{DoxyCompactItemize}

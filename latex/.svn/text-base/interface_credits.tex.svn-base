@@ -1,0 +1,21 @@
+\hypertarget{interface_credits}{
+\section{\-Credits \-Class \-Reference}
+\label{interface_credits}\index{\-Credits@{\-Credits}}
+}
+
+
+\hyperlink{interface_credits}{\-Credits}\-: controller responsible for the credits screen.  
+
+
+
+
+{\ttfamily \#import $<$\-Credits.\-h$>$}
+
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{interface_credits}{\-Credits}\-: controller responsible for the credits screen. 
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Credits.\-h\end{DoxyCompactItemize}

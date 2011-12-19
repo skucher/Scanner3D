@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_onbeforework">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../interface_background_worker.html#abe061a3706b92b0a9f10998d6758a0db" target="_parent">onBeforeWork</a>
+  <span class="SRScope">BackgroundWorker</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_oncreate">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../interface_e_a_g_l_view_q_c_a_r.html#aec4cc00a46e5918f3cb7c12f1a864ffc" target="_parent">onCreate</a>
+  <span class="SRScope">EAGLViewQCAR</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_ondestroy">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../interface_e_a_g_l_view_q_c_a_r.html#afd0ff8b02dc9ffbc104cb6662f1693a4" target="_parent">onDestroy</a>
+  <span class="SRScope">EAGLViewQCAR</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_ondowork">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../interface_background_worker.html#a23f3772d45b9471294508281602196af" target="_parent">onDoWork</a>
+  <span class="SRScope">BackgroundWorker</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_onpause">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="../interface_e_a_g_l_view_q_c_a_r.html#ae9bb1fb1664e38a5dcae81c0ee54e77f" target="_parent">onPause</a>
+  <span class="SRScope">EAGLViewQCAR</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_onresume">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="../interface_e_a_g_l_view_q_c_a_r.html#a2937ce7690f04e00a8b83ede63ca644a" target="_parent">onResume</a>
+  <span class="SRScope">EAGLViewQCAR</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_onrunworkercompleted">
+ <div class="SREntry">
+  <a id="Item6" onkeydown="return searchResults.Nav(event,6)" onkeypress="return searchResults.Nav(event,6)" onkeyup="return searchResults.Nav(event,6)" class="SRSymbol" href="../interface_background_worker.html#a71f9bdc848a3ab29551644569db05ffa" target="_parent">onRunWorkerCompleted</a>
+  <span class="SRScope">BackgroundWorker</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_openglviewcontroller">
+ <div class="SREntry">
+  <a id="Item7" onkeydown="return searchResults.Nav(event,7)" onkeypress="return searchResults.Nav(event,7)" onkeyup="return searchResults.Nav(event,7)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_openglviewcontroller')">OpenGLViewController</a>
+  <div class="SRChildren">
+    <a id="Item7_c0" onkeydown="return searchResults.NavChild(event,7,0)" onkeypress="return searchResults.NavChild(event,7,0)" onkeyup="return searchResults.NavChild(event,7,0)" class="SRScope" href="../interface_open_g_l_view_controller.html" target="_parent">OpenGLViewController</a>
+    <a id="Item7_c1" onkeydown="return searchResults.NavChild(event,7,1)" onkeypress="return searchResults.NavChild(event,7,1)" onkeyup="return searchResults.NavChild(event,7,1)" class="SRScope" href="../interface_root_view_controller.html#a999baf16172c366ff716b98a0ce83daf" target="_parent">RootViewController::openGLViewController()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_openglviewcontroller_28_29">
+ <div class="SREntry">
+  <a id="Item8" onkeydown="return searchResults.Nav(event,8)" onkeypress="return searchResults.Nav(event,8)" onkeyup="return searchResults.Nav(event,8)" class="SRSymbol" href="../interface_open_g_l_view_controller_07_08.html" target="_parent">OpenGLViewController()</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_21_3d">
+ <div class="SREntry">
+  <a id="Item9" onkeydown="return searchResults.Nav(event,9)" onkeypress="return searchResults.Nav(event,9)" onkeyup="return searchResults.Nav(event,9)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_21_3d')">operator!=</a>
+  <div class="SRChildren">
+    <a id="Item9_c0" onkeydown="return searchResults.NavChild(event,9,0)" onkeypress="return searchResults.NavChild(event,9,0)" onkeyup="return searchResults.NavChild(event,9,0)" class="SRScope" href="../class_vector2_d_ex.html#a46bf927a988ecf4e989b4e5b5b650920" target="_parent">Vector2DEx::operator!=()</a>
+    <a id="Item9_c1" onkeydown="return searchResults.NavChild(event,9,1)" onkeypress="return searchResults.NavChild(event,9,1)" onkeyup="return searchResults.NavChild(event,9,1)" class="SRScope" href="../class_vector3_d_ex.html#a1de80421490ca6fe2e35c51614156e88" target="_parent">Vector3DEx::operator!=()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_2a">
+ <div class="SREntry">
+  <a id="Item10" onkeydown="return searchResults.Nav(event,10)" onkeypress="return searchResults.Nav(event,10)" onkeyup="return searchResults.Nav(event,10)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_2a')">operator*</a>
+  <div class="SRChildren">
+    <a id="Item10_c0" onkeydown="return searchResults.NavChild(event,10,0)" onkeypress="return searchResults.NavChild(event,10,0)" onkeyup="return searchResults.NavChild(event,10,0)" class="SRScope" href="../class_pixel_vector.html#a6eaa15e3c61944ed2babf972b057adb9" target="_parent">PixelVector::operator*(float alpha)</a>
+    <a id="Item10_c1" onkeydown="return searchResults.NavChild(event,10,1)" onkeypress="return searchResults.NavChild(event,10,1)" onkeyup="return searchResults.NavChild(event,10,1)" class="SRScope" href="../class_pixel_vector.html#a9725ed4d0ff56fda7a31d908854e446c" target="_parent">PixelVector::operator*(PixelVector u)</a>
+    <a id="Item10_c2" onkeydown="return searchResults.NavChild(event,10,2)" onkeypress="return searchResults.NavChild(event,10,2)" onkeyup="return searchResults.NavChild(event,10,2)" class="SRScope" href="../class_vector2_d_ex.html#a29ebb19db45bacb18f5ec0245157adf9" target="_parent">Vector2DEx::operator*(const Vector2DEx &amp;other) const </a>
+    <a id="Item10_c3" onkeydown="return searchResults.NavChild(event,10,3)" onkeypress="return searchResults.NavChild(event,10,3)" onkeyup="return searchResults.NavChild(event,10,3)" class="SRScope" href="../class_vector2_d_ex.html#a364160ffff956a04265f218d0ba5d5ce" target="_parent">Vector2DEx::operator*(float alpha) const </a>
+    <a id="Item10_c4" onkeydown="return searchResults.NavChild(event,10,4)" onkeypress="return searchResults.NavChild(event,10,4)" onkeyup="return searchResults.NavChild(event,10,4)" class="SRScope" href="../class_vector3_d.html#a7c02986f1641e3a086e547358bb95325" target="_parent">Vector3D::operator*()</a>
+    <a id="Item10_c5" onkeydown="return searchResults.NavChild(event,10,5)" onkeypress="return searchResults.NavChild(event,10,5)" onkeyup="return searchResults.NavChild(event,10,5)" class="SRScope" href="../class_vector3_d_ex.html#a29ee00c9bc3847507ecbe0989be539ba" target="_parent">Vector3DEx::operator*(const Vector3DEx &amp;other) const </a>
+    <a id="Item10_c6" onkeydown="return searchResults.NavChild(event,10,6)" onkeypress="return searchResults.NavChild(event,10,6)" onkeyup="return searchResults.NavChild(event,10,6)" class="SRScope" href="../class_vector3_d_ex.html#acc8ec2817fc452cae55fbe3c6177d7b1" target="_parent">Vector3DEx::operator*(float alpha) const </a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_2a_3d">
+ <div class="SREntry">
+  <a id="Item11" onkeydown="return searchResults.Nav(event,11)" onkeypress="return searchResults.Nav(event,11)" onkeyup="return searchResults.Nav(event,11)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_2a_3d')">operator*=</a>
+  <div class="SRChildren">
+    <a id="Item11_c0" onkeydown="return searchResults.NavChild(event,11,0)" onkeypress="return searchResults.NavChild(event,11,0)" onkeyup="return searchResults.NavChild(event,11,0)" class="SRScope" href="../class_vector3_d.html#a47ff89a047f61471490179dd7ff434e0" target="_parent">Vector3D::operator*=()</a>
+    <a id="Item11_c1" onkeydown="return searchResults.NavChild(event,11,1)" onkeypress="return searchResults.NavChild(event,11,1)" onkeyup="return searchResults.NavChild(event,11,1)" class="SRScope" href="../class_vector3_d_ex.html#a0d213234685d334eed0f02edbc8856cd" target="_parent">Vector3DEx::operator*=()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_2b">
+ <div class="SREntry">
+  <a id="Item12" onkeydown="return searchResults.Nav(event,12)" onkeypress="return searchResults.Nav(event,12)" onkeyup="return searchResults.Nav(event,12)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_2b')">operator+</a>
+  <div class="SRChildren">
+    <a id="Item12_c0" onkeydown="return searchResults.NavChild(event,12,0)" onkeypress="return searchResults.NavChild(event,12,0)" onkeyup="return searchResults.NavChild(event,12,0)" class="SRScope" href="../class_pixel_vector.html#ab7ec610eb21ba7ccaa06f9c4fc17bfbb" target="_parent">PixelVector::operator+()</a>
+    <a id="Item12_c1" onkeydown="return searchResults.NavChild(event,12,1)" onkeypress="return searchResults.NavChild(event,12,1)" onkeyup="return searchResults.NavChild(event,12,1)" class="SRScope" href="../class_vector2_d_ex.html#a3185eaecde6d7528ce387bbfe5d3d2e1" target="_parent">Vector2DEx::operator+()</a>
+    <a id="Item12_c2" onkeydown="return searchResults.NavChild(event,12,2)" onkeypress="return searchResults.NavChild(event,12,2)" onkeyup="return searchResults.NavChild(event,12,2)" class="SRScope" href="../class_vector3_d.html#a4f42a873d7f7bea9d2436bedb44baa94" target="_parent">Vector3D::operator+()</a>
+    <a id="Item12_c3" onkeydown="return searchResults.NavChild(event,12,3)" onkeypress="return searchResults.NavChild(event,12,3)" onkeyup="return searchResults.NavChild(event,12,3)" class="SRScope" href="../class_vector3_d_ex.html#a103f6d1d6283f307e1b1f6d1c2f39c1a" target="_parent">Vector3DEx::operator+()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_2b_3d">
+ <div class="SREntry">
+  <a id="Item13" onkeydown="return searchResults.Nav(event,13)" onkeypress="return searchResults.Nav(event,13)" onkeyup="return searchResults.Nav(event,13)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_2b_3d')">operator+=</a>
+  <div class="SRChildren">
+    <a id="Item13_c0" onkeydown="return searchResults.NavChild(event,13,0)" onkeypress="return searchResults.NavChild(event,13,0)" onkeyup="return searchResults.NavChild(event,13,0)" class="SRScope" href="../class_vector3_d.html#a546241ecc51e49e05e7672ffde26bbf8" target="_parent">Vector3D::operator+=()</a>
+    <a id="Item13_c1" onkeydown="return searchResults.NavChild(event,13,1)" onkeypress="return searchResults.NavChild(event,13,1)" onkeyup="return searchResults.NavChild(event,13,1)" class="SRScope" href="../class_vector3_d_ex.html#a0752326d1725e6d0c0ee35185d2900f9" target="_parent">Vector3DEx::operator+=()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_2d">
+ <div class="SREntry">
+  <a id="Item14" onkeydown="return searchResults.Nav(event,14)" onkeypress="return searchResults.Nav(event,14)" onkeyup="return searchResults.Nav(event,14)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_2d')">operator-</a>
+  <div class="SRChildren">
+    <a id="Item14_c0" onkeydown="return searchResults.NavChild(event,14,0)" onkeypress="return searchResults.NavChild(event,14,0)" onkeyup="return searchResults.NavChild(event,14,0)" class="SRScope" href="../class_pixel_vector.html#aebbd2da733ec07a11c3bbce5bb022d71" target="_parent">PixelVector::operator-()</a>
+    <a id="Item14_c1" onkeydown="return searchResults.NavChild(event,14,1)" onkeypress="return searchResults.NavChild(event,14,1)" onkeyup="return searchResults.NavChild(event,14,1)" class="SRScope" href="../class_vector2_d_ex.html#acba6747aab9303559b70fad8a0acc1f0" target="_parent">Vector2DEx::operator-()</a>
+    <a id="Item14_c2" onkeydown="return searchResults.NavChild(event,14,2)" onkeypress="return searchResults.NavChild(event,14,2)" onkeyup="return searchResults.NavChild(event,14,2)" class="SRScope" href="../class_vector3_d_ex.html#a82c088887b7106844bea7d935dbe1266" target="_parent">Vector3DEx::operator-()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_2d_3d">
+ <div class="SREntry">
+  <a id="Item15" onkeydown="return searchResults.Nav(event,15)" onkeypress="return searchResults.Nav(event,15)" onkeyup="return searchResults.Nav(event,15)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_2d_3d')">operator-=</a>
+  <div class="SRChildren">
+    <a id="Item15_c0" onkeydown="return searchResults.NavChild(event,15,0)" onkeypress="return searchResults.NavChild(event,15,0)" onkeyup="return searchResults.NavChild(event,15,0)" class="SRScope" href="../class_vector3_d.html#a799f712590c47cc435b929718586555c" target="_parent">Vector3D::operator-=()</a>
+    <a id="Item15_c1" onkeydown="return searchResults.NavChild(event,15,1)" onkeypress="return searchResults.NavChild(event,15,1)" onkeyup="return searchResults.NavChild(event,15,1)" class="SRScope" href="../class_vector3_d_ex.html#a14bc2814914822c10d9ca1417a1815c6" target="_parent">Vector3DEx::operator-=()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_2f_3d">
+ <div class="SREntry">
+  <a id="Item16" onkeydown="return searchResults.Nav(event,16)" onkeypress="return searchResults.Nav(event,16)" onkeyup="return searchResults.Nav(event,16)" class="SRSymbol" href="../class_vector3_d.html#ae341e6522441e95684cdd985ebbb02fa" target="_parent">operator/=</a>
+  <span class="SRScope">Vector3D</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_3c">
+ <div class="SREntry">
+  <a id="Item17" onkeydown="return searchResults.Nav(event,17)" onkeypress="return searchResults.Nav(event,17)" onkeyup="return searchResults.Nav(event,17)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_3c')">operator&lt;</a>
+  <div class="SRChildren">
+    <a id="Item17_c0" onkeydown="return searchResults.NavChild(event,17,0)" onkeypress="return searchResults.NavChild(event,17,0)" onkeyup="return searchResults.NavChild(event,17,0)" class="SRScope" href="../class_edge_ex.html#acbd29703c65fadd85b1ecb9856a7e425" target="_parent">EdgeEx::operator&lt;()</a>
+    <a id="Item17_c1" onkeydown="return searchResults.NavChild(event,17,1)" onkeypress="return searchResults.NavChild(event,17,1)" onkeyup="return searchResults.NavChild(event,17,1)" class="SRScope" href="../class_vector2_d_ex.html#ad04d2fb966beeb1bec2a3d1853229893" target="_parent">Vector2DEx::operator&lt;()</a>
+    <a id="Item17_c2" onkeydown="return searchResults.NavChild(event,17,2)" onkeypress="return searchResults.NavChild(event,17,2)" onkeyup="return searchResults.NavChild(event,17,2)" class="SRScope" href="../class_vector3_d_ex.html#a46c89c6993dbc4ee39339ce3d79fb4d7" target="_parent">Vector3DEx::operator&lt;()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_3c_3c">
+ <div class="SREntry">
+  <a id="Item18" onkeydown="return searchResults.Nav(event,18)" onkeypress="return searchResults.Nav(event,18)" onkeyup="return searchResults.Nav(event,18)" class="SRSymbol" href="../struct_vertex3_d.html#aab9e82ac7afc670976c2805bd53b3a82" target="_parent">operator&lt;&lt;</a>
+  <span class="SRScope">Vertex3D</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_3d_3d">
+ <div class="SREntry">
+  <a id="Item19" onkeydown="return searchResults.Nav(event,19)" onkeypress="return searchResults.Nav(event,19)" onkeyup="return searchResults.Nav(event,19)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_3d_3d')">operator==</a>
+  <div class="SRChildren">
+    <a id="Item19_c0" onkeydown="return searchResults.NavChild(event,19,0)" onkeypress="return searchResults.NavChild(event,19,0)" onkeyup="return searchResults.NavChild(event,19,0)" class="SRScope" href="../class_edge_ex.html#ad7dccb3d4fa8153e8fbc100361facd30" target="_parent">EdgeEx::operator==()</a>
+    <a id="Item19_c1" onkeydown="return searchResults.NavChild(event,19,1)" onkeypress="return searchResults.NavChild(event,19,1)" onkeyup="return searchResults.NavChild(event,19,1)" class="SRScope" href="../class_triangle.html#aff0b2e1b32208111ff6d01a695bfbf36" target="_parent">Triangle::operator==()</a>
+    <a id="Item19_c2" onkeydown="return searchResults.NavChild(event,19,2)" onkeypress="return searchResults.NavChild(event,19,2)" onkeyup="return searchResults.NavChild(event,19,2)" class="SRScope" href="../class_vector2_d_ex.html#aadc4c42ec7bd0e8e950cf115df06cd5f" target="_parent">Vector2DEx::operator==()</a>
+    <a id="Item19_c3" onkeydown="return searchResults.NavChild(event,19,3)" onkeypress="return searchResults.NavChild(event,19,3)" onkeyup="return searchResults.NavChild(event,19,3)" class="SRScope" href="../class_vector3_d_ex.html#a5d8c62665556e71e9bfefd493a353d90" target="_parent">Vector3DEx::operator==()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_3e">
+ <div class="SREntry">
+  <a id="Item20" onkeydown="return searchResults.Nav(event,20)" onkeypress="return searchResults.Nav(event,20)" onkeyup="return searchResults.Nav(event,20)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_operator_3e')">operator&gt;</a>
+  <div class="SRChildren">
+    <a id="Item20_c0" onkeydown="return searchResults.NavChild(event,20,0)" onkeypress="return searchResults.NavChild(event,20,0)" onkeyup="return searchResults.NavChild(event,20,0)" class="SRScope" href="../class_vector2_d_ex.html#aac71e2c5fdd311eb054b2816ecf52d3b" target="_parent">Vector2DEx::operator&gt;()</a>
+    <a id="Item20_c1" onkeydown="return searchResults.NavChild(event,20,1)" onkeypress="return searchResults.NavChild(event,20,1)" onkeyup="return searchResults.NavChild(event,20,1)" class="SRScope" href="../class_vector3_d_ex.html#ad2141ea943c3f76f141611c45f31a051" target="_parent">Vector3DEx::operator&gt;()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_operator_3e_3e">
+ <div class="SREntry">
+  <a id="Item21" onkeydown="return searchResults.Nav(event,21)" onkeypress="return searchResults.Nav(event,21)" onkeyup="return searchResults.Nav(event,21)" class="SRSymbol" href="../struct_vertex3_d.html#a6bfc504d5c9ec8fb89ce3668f436aeff" target="_parent">operator&gt;&gt;</a>
+  <span class="SRScope">Vertex3D</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

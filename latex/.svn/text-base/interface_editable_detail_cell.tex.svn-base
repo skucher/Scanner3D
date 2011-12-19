@@ -1,0 +1,42 @@
+\hypertarget{interface_editable_detail_cell}{
+\section{\-Editable\-Detail\-Cell \-Class \-Reference}
+\label{interface_editable_detail_cell}\index{\-Editable\-Detail\-Cell@{\-Editable\-Detail\-Cell}}
+}
+
+
+\hyperlink{interface_editable_detail_cell}{\-Editable\-Detail\-Cell}\-: table view cell in \hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} table view.  
+
+
+
+
+{\ttfamily \#import $<$\-Editable\-Detail\-Cell.\-h$>$}
+
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_editable_detail_cell_aa45fb6f977a5ed966c29491d31b0c933}{
+\-U\-I\-Text\-Field $\ast$ {\bfseries \-\_\-text\-Field}}
+\label{interface_editable_detail_cell_aa45fb6f977a5ed966c29491d31b0c933}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_editable_detail_cell_a5c94a146ae5fa5a79211c6e39fdbe292}{
+\-U\-I\-Text\-Field $\ast$ {\bfseries text\-Field}}
+\label{interface_editable_detail_cell_a5c94a146ae5fa5a79211c6e39fdbe292}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{interface_editable_detail_cell}{\-Editable\-Detail\-Cell}\-: table view cell in \hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} table view. 
+
+\begin{DoxySeeAlso}{\-See also}
+\-:\hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Mesh library/\-Editable\-Detail\-Cell.\-h\end{DoxyCompactItemize}

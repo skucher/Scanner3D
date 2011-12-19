@@ -1,0 +1,55 @@
+\hypertarget{interface_e_a_g_l_view_o_g_l}{
+\section{\-E\-A\-G\-L\-View\-O\-G\-L \-Class \-Reference}
+\label{interface_e_a_g_l_view_o_g_l}\index{\-E\-A\-G\-L\-View\-O\-G\-L@{\-E\-A\-G\-L\-View\-O\-G\-L}}
+}
+
+
+\hyperlink{interface_e_a_g_l_view_o_g_l}{\-E\-A\-G\-L\-View\-O\-G\-L}\-: this class wraps the \-C\-A\-E\-A\-G\-L\-Layer from \-Core\-Animation into a convenient \-U\-I\-View subclass.  
+
+
+
+
+{\ttfamily \#import $<$\-E\-A\-G\-L\-View\-O\-G\-L.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_e_a_g_l_view_o_g_l_a63da1e713810107a4bc0e92d1b9cca55}{
+(void) -\/ \hyperlink{interface_e_a_g_l_view_o_g_l_a63da1e713810107a4bc0e92d1b9cca55}{create\-Framebuffer}}
+\label{interface_e_a_g_l_view_o_g_l_a63da1e713810107a4bc0e92d1b9cca55}
+
+\begin{DoxyCompactList}\small\item\em creates default\-Framebuffer, color\-Renderbuffer, depth\-Renderbuffer \end{DoxyCompactList}\item 
+\hypertarget{interface_e_a_g_l_view_o_g_l_a26072c8ada34035738d7bc288c21a177}{
+(void) -\/ {\bfseries set\-Framebuffer}}
+\label{interface_e_a_g_l_view_o_g_l_a26072c8ada34035738d7bc288c21a177}
+
+\item 
+\hypertarget{interface_e_a_g_l_view_o_g_l_a5c6470a62515e051029de0d0e5cf4a3d}{
+(void) -\/ {\bfseries delete\-Framebuffer}}
+\label{interface_e_a_g_l_view_o_g_l_a5c6470a62515e051029de0d0e5cf4a3d}
+
+\item 
+\hypertarget{interface_e_a_g_l_view_o_g_l_acf5d374a60d2665a7f91b54f3630c7d5}{
+(\-B\-O\-O\-L) -\/ {\bfseries present\-Framebuffer}}
+\label{interface_e_a_g_l_view_o_g_l_acf5d374a60d2665a7f91b54f3630c7d5}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_e_a_g_l_view_o_g_l_acc256d766621551c24ca97d8e60bf054}{
+\-E\-A\-G\-L\-Context $\ast$ {\bfseries context}}
+\label{interface_e_a_g_l_view_o_g_l_acc256d766621551c24ca97d8e60bf054}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{interface_e_a_g_l_view_o_g_l}{\-E\-A\-G\-L\-View\-O\-G\-L}\-: this class wraps the \-C\-A\-E\-A\-G\-L\-Layer from \-Core\-Animation into a convenient \-U\-I\-View subclass. 
+
+\-The view content is basically an \-E\-A\-G\-L surface you render your \-Open\-G\-L scene into. \-Note that setting the view non-\/opaque will only work if the \-E\-A\-G\-L surface has an alpha channel. 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Open\-G\-L/\-E\-A\-G\-L\-View\-O\-G\-L.\-h\item 
+src/\-Controllers/\-Open\-G\-L/\-E\-A\-G\-L\-View\-O\-G\-L.\-mm\end{DoxyCompactItemize}

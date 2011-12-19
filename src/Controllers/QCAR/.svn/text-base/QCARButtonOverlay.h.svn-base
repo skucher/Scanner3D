@@ -1,0 +1,73 @@
+/*==============================================================================
+Copyright (c) 2010-2011 QUALCOMM Austria Research Center GmbH .
+All Rights Reserved.
+Qualcomm Confidential and Proprietary
+==============================================================================*/
+
+
+#import <UIKit/UIKit.h>
+#import "HSImageSidebarView.h"
+
+@class BackgroundWorker;
+
+
+#import "QCARViewController.h"
+
+/**QCARViewController: Controller class responsible for UI layer of QCARViewController
+ *@see: QCARViewController, SculpImage, HSImageSidebarView, BackgroundWorker
+ */
+@interface QCARButtonOverlay : UIViewController 
+<UIActionSheetDelegate, HSImageSidebarViewDelegate, UIPopoverControllerDelegate>
+{
+    @private
+    UIImageView *dropShadowImage;
+
+    BackgroundWorker* backgroundWorker;
+    
+    HSImageSidebarView *_sidebarImages;
+    HSImageSidebarView *_sidebarButtons;
+
+    
+    NSMutableArray* images;
+    NSMutableArray* buttons;
+    BOOL buttonsDisabled;
+    
+    NSUInteger numberOfSculptedImages;
+}
+/**QCARViewController is the father class
+ */
+@property (nonatomic,retain) QCARViewController* father;
+
+//Labels
+@property (nonatomic, retain) IBOutlet UILabel* logMesageLabel;
+
+//Activity Indicator
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
+
+//Sidebar
+@property (nonatomic, retain) IBOutlet HSImageSidebarView *sidebarImages;
+@property (nonatomic, retain) IBOutlet HSImageSidebarView *sidebarButtons;
+@property (nonatomic, retain) NSMutableArray* images;
+@property (nonatomic, retain) NSMutableArray* buttons;
+
+
+//Actions
+-(void)startActivityIndicator; 
+-(void)stopActivityIndicator;
+
+/**refers only to the _sidebarImages*/
+-(void)sideBarInsertRow:(UIImage*)image atIndex:(NSInteger)index;
+/**refers only to the _sidebarImages*/
+-(void)sideBarDeleteSelection;
+/**refers only to the _sidebarImages*/
+-(void)sideBarDeleteRowAtIndex:(NSInteger)selectedIndex;
+/**refers only to the _sidebarImages*/
+-(void)sideBarExpandSelectedImage;
+
+/**displays text message on logMessageLabel*/
+-(void)showMessage:(NSString *)theMessage withFadeDuration:(float)
+fadeDuration withShowDuration:(float)showDuration;
+/**hides logMessageLabel*/
+-(void)hideMessage:(float)fadeDuration;
+-(void)showCurvingMessage;
+@end

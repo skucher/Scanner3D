@@ -1,0 +1,22 @@
+\hypertarget{interface_e_a_g_l_view_o_g_l_07_private_methods_08}{
+\section{\-E\-A\-G\-L\-View\-O\-G\-L(\-Private\-Methods) \-Class \-Reference}
+\label{interface_e_a_g_l_view_o_g_l_07_private_methods_08}\index{\-E\-A\-G\-L\-View\-O\-G\-L(\-Private\-Methods)@{\-E\-A\-G\-L\-View\-O\-G\-L(\-Private\-Methods)}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_e_a_g_l_view_o_g_l_07_private_methods_08_a39d053d6a31e7e17e051d5619e540e5a}{
+(void) -\/ {\bfseries create\-Framebuffer}}
+\label{interface_e_a_g_l_view_o_g_l_07_private_methods_08_a39d053d6a31e7e17e051d5619e540e5a}
+
+\item 
+\hypertarget{interface_e_a_g_l_view_o_g_l_07_private_methods_08_a1c17b725fb83474976fbd1fa50eeeaa1}{
+(void) -\/ {\bfseries delete\-Framebuffer}}
+\label{interface_e_a_g_l_view_o_g_l_07_private_methods_08_a1c17b725fb83474976fbd1fa50eeeaa1}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Open\-G\-L/\-E\-A\-G\-L\-View\-O\-G\-L.\-mm\end{DoxyCompactItemize}

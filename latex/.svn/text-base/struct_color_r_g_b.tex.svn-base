@@ -1,0 +1,44 @@
+\hypertarget{struct_color_r_g_b}{
+\section{\-Color\-R\-G\-B \-Struct \-Reference}
+\label{struct_color_r_g_b}\index{\-Color\-R\-G\-B@{\-Color\-R\-G\-B}}
+}
+
+
+\-Represens color in \-R\-G\-B\-T format.  
+
+
+
+
+{\ttfamily \#include $<$\-Color\-R\-G\-B.\-h$>$}
+
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_color_r_g_b_aeeb6205311bf3c28ff866cd597c1f1a1}{
+unsigned char \hyperlink{struct_color_r_g_b_aeeb6205311bf3c28ff866cd597c1f1a1}{\-R}}
+\label{struct_color_r_g_b_aeeb6205311bf3c28ff866cd597c1f1a1}
+
+\begin{DoxyCompactList}\small\item\em \-Red\-: 0-\/256. \end{DoxyCompactList}\item 
+\hypertarget{struct_color_r_g_b_a39a3e204c0c744af8540173704981271}{
+unsigned char \hyperlink{struct_color_r_g_b_a39a3e204c0c744af8540173704981271}{\-G}}
+\label{struct_color_r_g_b_a39a3e204c0c744af8540173704981271}
+
+\begin{DoxyCompactList}\small\item\em \-Green\-: 0-\/256. \end{DoxyCompactList}\item 
+\hypertarget{struct_color_r_g_b_a4923e19e57989c2e2afdeb163fe766c3}{
+unsigned char \hyperlink{struct_color_r_g_b_a4923e19e57989c2e2afdeb163fe766c3}{\-B}}
+\label{struct_color_r_g_b_a4923e19e57989c2e2afdeb163fe766c3}
+
+\begin{DoxyCompactList}\small\item\em \-Blue\-: 0-\/256. \end{DoxyCompactList}\item 
+\hypertarget{struct_color_r_g_b_a45187a7efea62593cd43b0ee3e32c08e}{
+unsigned char \hyperlink{struct_color_r_g_b_a45187a7efea62593cd43b0ee3e32c08e}{\-T}}
+\label{struct_color_r_g_b_a45187a7efea62593cd43b0ee3e32c08e}
+
+\begin{DoxyCompactList}\small\item\em \-Transperency\-: 0-\/256. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Represens color in \-R\-G\-B\-T format. 
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Color\-R\-G\-B.\-h\end{DoxyCompactItemize}

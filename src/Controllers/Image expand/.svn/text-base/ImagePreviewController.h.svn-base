@@ -1,0 +1,35 @@
+
+#import "TapDetectingImageView.h"
+#import "HSImageSidebarView.h"
+#import "DropShadows.h"
+#import "SculpImage.h"
+
+/**ImagePreviewController: controller responsible for displaying images from QCARViewController. The implementation code is taken from WWDC2010 release:TapToZoom example
+ *@see: QCARViewController, wwdc2010 release:TapToZoom Example
+ */
+@interface ImagePreviewController : UIViewController <UIScrollViewDelegate, TapDetectingImageViewDelegate, UIGestureRecognizerDelegate, HSImageSidebarViewDelegate, UIPopoverControllerDelegate> 
+{
+    SculpImage* _image;
+    SculpImage** _imageBackup;
+    
+    UIScrollView *_imageScrollView;
+    UIImageView *imageView;
+    BOOL buttonsDisabled;
+    DropShadows dropShadows;
+    
+    HSImageSidebarView *_sidebarButtons;
+    NSMutableArray* buttons;//for _sidebarButtons
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil image:(SculpImage
+                                                                                        **)image;
+
+/**UI Components*/
+@property (nonatomic, retain) IBOutlet UIScrollView *imageScrollView;
+@property (nonatomic, retain) IBOutlet HSImageSidebarView *sidebarButtons;
+
+/**executed when the user pressed 'done' button on iPhone\iPad keyboard
+ */
+- (IBAction)textFieldDoneEditing:(id)sender;
+@end
+

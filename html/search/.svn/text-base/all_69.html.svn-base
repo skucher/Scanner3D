@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_imagepreviewcontroller">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../interface_image_preview_controller.html" target="_parent">ImagePreviewController</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_imagepreviewcontroller_28utilitymethods_29">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../interface_image_preview_controller_07_utility_methods_08.html" target="_parent">ImagePreviewController(UtilityMethods)</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_indices">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../class_shape.html#a06d832711b2b48d174fb9e5ee0118410" target="_parent">indices</a>
+  <span class="SRScope">Shape</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_init_3a_5fcaliie_3a">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../interface_delegate.html#aaa9688f9ca6576aaa85c273c96c1a914" target="_parent">init:_caliie:</a>
+  <span class="SRScope">Delegate</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_initialized">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_initialized')">Initialized</a>
+  <div class="SRChildren">
+    <a id="Item4_c0" onkeydown="return searchResults.NavChild(event,4,0)" onkeypress="return searchResults.NavChild(event,4,0)" onkeyup="return searchResults.NavChild(event,4,0)" class="SRScope" href="../struct_sculpt_data.html#a3b6f64215bdecfe34c8dd000e12409b2" target="_parent">SculptData::Initialized()</a>
+    <a id="Item4_c1" onkeydown="return searchResults.NavChild(event,4,1)" onkeypress="return searchResults.NavChild(event,4,1)" onkeyup="return searchResults.NavChild(event,4,1)" class="SRScope" href="../class_shape.html#ae48a6691112a9b68482683e376f54195" target="_parent">Shape::Initialized()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_invert">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="../class_edge_ex.html#a3a88d4d1eaeb7a3efb5aa5d0c230c9de" target="_parent">invert</a>
+  <span class="SRScope">EdgeEx</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_invertnormal">
+ <div class="SREntry">
+  <a id="Item6" onkeydown="return searchResults.Nav(event,6)" onkeypress="return searchResults.Nav(event,6)" onkeyup="return searchResults.Nav(event,6)" class="SRSymbol" href="../class_triangle.html#ad294a636f3fe2c5a49822169783cbff5" target="_parent">invertNormal</a>
+  <span class="SRScope">Triangle</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_invoke">
+ <div class="SREntry">
+  <a id="Item7" onkeydown="return searchResults.Nav(event,7)" onkeypress="return searchResults.Nav(event,7)" onkeyup="return searchResults.Nav(event,7)" class="SRSymbol" href="../interface_event.html#a1a7f5c65af911dd09b7f31f5dd33ffcc" target="_parent">invoke</a>
+  <span class="SRScope">Event</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_isedgecontainedinsamedirection">
+ <div class="SREntry">
+  <a id="Item8" onkeydown="return searchResults.Nav(event,8)" onkeypress="return searchResults.Nav(event,8)" onkeyup="return searchResults.Nav(event,8)" class="SRSymbol" href="../class_triangle.html#a9b513460a157ac8a39b6fe026a5db3cf" target="_parent">IsEdgeContainedInSameDirection</a>
+  <span class="SRScope">Triangle</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_isfinished">
+ <div class="SREntry">
+  <a id="Item9" onkeydown="return searchResults.Nav(event,9)" onkeypress="return searchResults.Nav(event,9)" onkeyup="return searchResults.Nav(event,9)" class="SRSymbol" href="../interface_background_worker.html#a335cf56e270e7ad64242426630891a3f" target="_parent">isFinished</a>
+  <span class="SRScope">BackgroundWorker</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_isfixed">
+ <div class="SREntry">
+  <a id="Item10" onkeydown="return searchResults.Nav(event,10)" onkeypress="return searchResults.Nav(event,10)" onkeyup="return searchResults.Nav(event,10)" class="SRSymbol" href="../class_triangle.html#a4fe94831d15a2c454d661a2937747dc6" target="_parent">isFixed</a>
+  <span class="SRScope">Triangle</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_isinsamedirection">
+ <div class="SREntry">
+  <a id="Item11" onkeydown="return searchResults.Nav(event,11)" onkeypress="return searchResults.Nav(event,11)" onkeyup="return searchResults.Nav(event,11)" class="SRSymbol" href="../class_edge_ex.html#a25bcbdb8000c8f3ff3eed580cdb8f53b" target="_parent">isInSameDirection</a>
+  <span class="SRScope">EdgeEx</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_">
+ <div class="SREntry">
+  <a id="Item12" onkeydown="return searchResults.Nav(event,12)" onkeypress="return searchResults.Nav(event,12)" onkeyup="return searchResults.Nav(event,12)" class="SRSymbol" href="../interface_sculp_image.html#af042bf65d947f9797abfcf5ba93d4d15" target="_parent"></a>
+  <span class="SRScope">SculpImage</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+\hypertarget{class_vector2_d_ex}{
+\section{\-Vector2\-D\-Ex \-Class \-Reference}
+\label{class_vector2_d_ex}\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}}
+}
+
+
+\hyperlink{class_vector2_d}{\-Vector2\-D} is extended vector 2\-D representation\-: needed for performance improval its lenght calculated only once on creation.  
+
+
+
+
+{\ttfamily \#include $<$\-Vector2\-D\-Ex.\-h$>$}
+
+\-Inheritance diagram for \-Vector2\-D\-Ex\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vector2_d_ex}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_vector2_d_ex_ab62463309be3636c4bc392b112d6d3d7}{
+\hyperlink{class_vector2_d_ex_ab62463309be3636c4bc392b112d6d3d7}{\-Vector2\-D\-Ex} (void)}
+\label{class_vector2_d_ex_ab62463309be3636c4bc392b112d6d3d7}
+
+\begin{DoxyCompactList}\small\item\em parameterless constructor \end{DoxyCompactList}\item 
+\hyperlink{class_vector2_d_ex_a26dabd1e9fea965c4038d1d9ca80cdb5}{\-Vector2\-D\-Ex} (float x, float y)
+\begin{DoxyCompactList}\small\item\em constructor\-: \end{DoxyCompactList}\item 
+float \hyperlink{class_vector2_d_ex_a474176502b57b6b227845f724e884f09}{angle} (\hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other)
+\item 
+float \hyperlink{class_vector2_d_ex_a10544a1fe8d28a4deb72b41392411a39}{length} ()
+\item 
+\hypertarget{class_vector2_d_ex_a13058c50f93573bec5284e15f1dd193c}{
+\hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \hyperlink{class_vector2_d_ex_a13058c50f93573bec5284e15f1dd193c}{normalize} ()}
+\label{class_vector2_d_ex_a13058c50f93573bec5284e15f1dd193c}
+
+\begin{DoxyCompactList}\small\item\em normalizes the vector \end{DoxyCompactList}\item 
+bool \hyperlink{class_vector2_d_ex_ad04d2fb966beeb1bec2a3d1853229893}{operator$<$} (const \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other) const 
+\item 
+bool \hyperlink{class_vector2_d_ex_aadc4c42ec7bd0e8e950cf115df06cd5f}{operator==} (const \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other) const 
+\item 
+bool \hyperlink{class_vector2_d_ex_a46bf927a988ecf4e989b4e5b5b650920}{operator!=} (const \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other) const 
+\item 
+bool \hyperlink{class_vector2_d_ex_aac71e2c5fdd311eb054b2816ecf52d3b}{operator$>$} (const \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other) const 
+\item 
+\hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \hyperlink{class_vector2_d_ex_acba6747aab9303559b70fad8a0acc1f0}{operator-\/} (const \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other) const 
+\item 
+\hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \hyperlink{class_vector2_d_ex_a3185eaecde6d7528ce387bbfe5d3d2e1}{operator+} (const \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other) const 
+\item 
+float \hyperlink{class_vector2_d_ex_a29ebb19db45bacb18f5ec0245157adf9}{operator$\ast$} (const \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \&other) const 
+\item 
+\hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} \hyperlink{class_vector2_d_ex_a364160ffff956a04265f218d0ba5d5ce}{operator$\ast$} (float alpha) const 
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_vector2_d_ex_a0429aeb06448a9415da2fc8994d6d587}{
+float {\bfseries vector\-Length}}
+\label{class_vector2_d_ex_a0429aeb06448a9415da2fc8994d6d587}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{class_vector2_d}{\-Vector2\-D} is extended vector 2\-D representation\-: needed for performance improval its lenght calculated only once on creation. 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_vector2_d_ex_a26dabd1e9fea965c4038d1d9ca80cdb5}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}}
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{\-Vector2\-D\-Ex}]{\setlength{\rightskip}{0pt plus 5cm}\-Vector2\-D\-Ex\-::\-Vector2\-D\-Ex (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{class_vector2_d_ex_a26dabd1e9fea965c4038d1d9ca80cdb5}
+
+
+constructor\-: 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em x,\-:} & x location \\
+\hline
+{\em y,\-:} & y location \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_vector2_d_ex_a474176502b57b6b227845f724e884f09}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!angle@{angle}}
+\index{angle@{angle}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{angle}]{\setlength{\rightskip}{0pt plus 5cm}float \-Vector2\-D\-Ex\-::angle (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+)}}
+\label{class_vector2_d_ex_a474176502b57b6b227845f724e884f09}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+angle between this and other 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_a10544a1fe8d28a4deb72b41392411a39}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!length@{length}}
+\index{length@{length}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}float \-Vector2\-D\-Ex\-::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_vector2_d_ex_a10544a1fe8d28a4deb72b41392411a39}
+\begin{DoxyReturn}{\-Returns}
+vector length 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_a46bf927a988ecf4e989b4e5b5b650920}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}bool \-Vector2\-D\-Ex\-::operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_a46bf927a988ecf4e989b4e5b5b650920}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+if this not equal to other in x or y 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_a29ebb19db45bacb18f5ec0245157adf9}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}float \-Vector2\-D\-Ex\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_a29ebb19db45bacb18f5ec0245157adf9}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+this product other 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_a364160ffff956a04265f218d0ba5d5ce}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Vector2\-D\-Ex} \-Vector2\-D\-Ex\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{float}]{alpha}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_a364160ffff956a04265f218d0ba5d5ce}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+this $\ast$ alpha. (x$\ast$alpha,y$\ast$alpha) 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_a3185eaecde6d7528ce387bbfe5d3d2e1}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator+@{operator+}}
+\index{operator+@{operator+}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Vector2\-D\-Ex} \-Vector2\-D\-Ex\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_a3185eaecde6d7528ce387bbfe5d3d2e1}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+this+other x1+x2,y1+y2 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_acba6747aab9303559b70fad8a0acc1f0}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator-\/}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Vector2\-D\-Ex} \-Vector2\-D\-Ex\-::operator-\/ (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_acba6747aab9303559b70fad8a0acc1f0}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+this-\/other x1-\/x2,y1-\/y2 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_ad04d2fb966beeb1bec2a3d1853229893}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool \-Vector2\-D\-Ex\-::operator$<$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_ad04d2fb966beeb1bec2a3d1853229893}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+if this less the other in (x,y) preference order 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_aadc4c42ec7bd0e8e950cf115df06cd5f}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator==@{operator==}}
+\index{operator==@{operator==}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool \-Vector2\-D\-Ex\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_aadc4c42ec7bd0e8e950cf115df06cd5f}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+if this equal other x and y 
+\end{DoxyReturn}
+\hypertarget{class_vector2_d_ex_aac71e2c5fdd311eb054b2816ecf52d3b}{
+\index{\-Vector2\-D\-Ex@{\-Vector2\-D\-Ex}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Vector2DEx@{\-Vector2\-D\-Ex}}
+\subsubsection[{operator$>$}]{\setlength{\rightskip}{0pt plus 5cm}bool \-Vector2\-D\-Ex\-::operator$>$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Vector2\-D\-Ex} \&}]{other}
+\end{DoxyParamCaption}
+) const}}
+\label{class_vector2_d_ex_aac71e2c5fdd311eb054b2816ecf52d3b}
+
+\begin{DoxyParams}{\-Parameters}
+{\em other,\-:} & the \hyperlink{class_vector2_d_ex}{\-Vector2\-D\-Ex} to perform the operation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+if this greater the other in (x,y) preference order 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Sculptor/\-Vector2\-D\-Ex.\-h\item 
+src/\-Sculptor/\-Vector2\-D\-Ex.\-cpp\end{DoxyCompactItemize}

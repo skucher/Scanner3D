@@ -1,0 +1,62 @@
+\hypertarget{interface_root_view_controller_07_08}{
+\section{\-Root\-View\-Controller() \-Class \-Reference}
+\label{interface_root_view_controller_07_08}\index{\-Root\-View\-Controller()@{\-Root\-View\-Controller()}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_root_view_controller_07_08_a73b5b28032a5dcc10bc6b27a026baae8}{
+(void) -\/ {\bfseries to\-Sculp}}
+\label{interface_root_view_controller_07_08_a73b5b28032a5dcc10bc6b27a026baae8}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_a4df01c8f916aab4928ea29591338d2aa}{
+(void) -\/ {\bfseries to\-Sculp\-Orig}}
+\label{interface_root_view_controller_07_08_a4df01c8f916aab4928ea29591338d2aa}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_a5dbd0027b80f140bac7e80ce5b4a0bb6}{
+(void) -\/ {\bfseries go\-To\-Open\-G\-L}}
+\label{interface_root_view_controller_07_08_a5dbd0027b80f140bac7e80ce5b4a0bb6}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_adfd4af8d8b114185acef690a72786bbe}{
+(void) -\/ {\bfseries update\-Dino\-Image\-:}}
+\label{interface_root_view_controller_07_08_adfd4af8d8b114185acef690a72786bbe}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_a5a3f47fcf889324d3dfe0e26b8f5ed52}{
+(void) -\/ {\bfseries update\-Masage\-With\-:}}
+\label{interface_root_view_controller_07_08_a5a3f47fcf889324d3dfe0e26b8f5ed52}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_aa3474d313d3cd1e5164f6bd3bd8f5568}{
+(void) -\/ {\bfseries hide\-Message}}
+\label{interface_root_view_controller_07_08_aa3474d313d3cd1e5164f6bd3bd8f5568}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_ab83279cc01bd9ff2c1c958c53bbb2a46}{
+(void) -\/ {\bfseries show\-Message}}
+\label{interface_root_view_controller_07_08_ab83279cc01bd9ff2c1c958c53bbb2a46}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_a70b92772b6f198d9835f0f5d8bffebc0}{
+(\hyperlink{interface_sculp_image}{\-Sculp\-Image} $\ast$) -\/ {\bfseries \-Sculpt\-Data\-To\-U\-I\-Image\-::}}
+\label{interface_root_view_controller_07_08_a70b92772b6f198d9835f0f5d8bffebc0}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_a6eb1c4bbfd873d087febdc62cf6d0c48}{
+(void) -\/ {\bfseries enable\-Buttons}}
+\label{interface_root_view_controller_07_08_a6eb1c4bbfd873d087febdc62cf6d0c48}
+
+\item 
+\hypertarget{interface_root_view_controller_07_08_a0a4481e2f87eb39eea553171a3659b53}{
+(void) -\/ {\bfseries disable\-Buttons}}
+\label{interface_root_view_controller_07_08_a0a4481e2f87eb39eea553171a3659b53}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Root\-View\-Controller.\-mm\end{DoxyCompactItemize}

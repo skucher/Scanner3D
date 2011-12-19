@@ -1,0 +1,50 @@
+\hypertarget{interface_mesh_library_view_controller_07_08}{
+\section{\-Mesh\-Library\-View\-Controller() \-Class \-Reference}
+\label{interface_mesh_library_view_controller_07_08}\index{\-Mesh\-Library\-View\-Controller()@{\-Mesh\-Library\-View\-Controller()}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_mesh_library_view_controller_07_08_a7cf6035ca66ea9eb3a64e51d3205b113}{
+(void) -\/ {\bfseries add\-Object\-:}}
+\label{interface_mesh_library_view_controller_07_08_a7cf6035ca66ea9eb3a64e51d3205b113}
+
+\item 
+\hypertarget{interface_mesh_library_view_controller_07_08_a015b956ddf15b6e4854a64c5df4c6017}{
+(void) -\/ {\bfseries disable\-Buttons}}
+\label{interface_mesh_library_view_controller_07_08_a015b956ddf15b6e4854a64c5df4c6017}
+
+\item 
+\hypertarget{interface_mesh_library_view_controller_07_08_a2f81ca7d68139cc2161a33b924cc7244}{
+(void) -\/ {\bfseries enable\-Buttons}}
+\label{interface_mesh_library_view_controller_07_08_a2f81ca7d68139cc2161a33b924cc7244}
+
+\item 
+\hypertarget{interface_mesh_library_view_controller_07_08_a53b999a1d2d9bdc15b3e365511b00813}{
+(void) -\/ {\bfseries go\-To\-Open\-G\-L}}
+\label{interface_mesh_library_view_controller_07_08_a53b999a1d2d9bdc15b3e365511b00813}
+
+\item 
+\hypertarget{interface_mesh_library_view_controller_07_08_a9b8db39f8e7d28b0bf781ac83a6824e3}{
+(void) -\/ {\bfseries update\-Message\-With\-:}}
+\label{interface_mesh_library_view_controller_07_08_a9b8db39f8e7d28b0bf781ac83a6824e3}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_mesh_library_view_controller_07_08_a8dba6ec9a30b1a7564bae944dcdfb36e}{
+\-N\-S\-Mutable\-Array $\ast$ {\bfseries displayed\-Objects}}
+\label{interface_mesh_library_view_controller_07_08_a8dba6ec9a30b1a7564bae944dcdfb36e}
+
+\item 
+\hypertarget{interface_mesh_library_view_controller_07_08_a2fc6cbc888ca9dcdb763676250d97cf8}{
+void($^\wedge$ {\bfseries action\-Sheet\-Block} )(\-N\-S\-U\-Integer)}
+\label{interface_mesh_library_view_controller_07_08_a2fc6cbc888ca9dcdb763676250d97cf8}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Mesh library/\-Mesh\-Library\-View\-Controller.\-mm\end{DoxyCompactItemize}

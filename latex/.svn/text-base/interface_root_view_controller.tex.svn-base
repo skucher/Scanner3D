@@ -1,0 +1,88 @@
+\hypertarget{interface_root_view_controller}{
+\section{\-Root\-View\-Controller \-Class \-Reference}
+\label{interface_root_view_controller}\index{\-Root\-View\-Controller@{\-Root\-View\-Controller}}
+}
+
+
+\hyperlink{interface_root_view_controller}{\-Root\-View\-Controller}\-: \-Root controller of the application which coardinates all the other controllers.  
+
+
+
+
+{\ttfamily \#import $<$\-Root\-View\-Controller.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_root_view_controller_a9069f67edad9a84bbda0d2b50c205e0f}{
+(\-I\-B\-Action) -\/ \hyperlink{interface_root_view_controller_a9069f67edad9a84bbda0d2b50c205e0f}{button\-Pushed\-:}}
+\label{interface_root_view_controller_a9069f67edad9a84bbda0d2b50c205e0f}
+
+\begin{DoxyCompactList}\small\item\em button\-Pushed\-: \-I\-B\-Action wich accures when one of the buttons is pushed \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_root_view_controller_a999baf16172c366ff716b98a0ce83daf}{
+\hyperlink{interface_open_g_l_view_controller}{\-Open\-G\-L\-View\-Controller} $\ast$ \hyperlink{interface_root_view_controller_a999baf16172c366ff716b98a0ce83daf}{open\-G\-L\-View\-Controller}}
+\label{interface_root_view_controller_a999baf16172c366ff716b98a0ce83daf}
+
+\begin{DoxyCompactList}\small\item\em \-U\-I\-View \-Controllers. \end{DoxyCompactList}\item 
+\hypertarget{interface_root_view_controller_a3d986b7910bc48af13bd564065baf78c}{
+\hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller} $\ast$ {\bfseries mesh\-Library\-View\-Controller}}
+\label{interface_root_view_controller_a3d986b7910bc48af13bd564065baf78c}
+
+\item 
+\hypertarget{interface_root_view_controller_a8ed02fe590d147f65d7e5d68f6eeb09d}{
+\hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller} $\ast$ {\bfseries qcar\-View\-Controller}}
+\label{interface_root_view_controller_a8ed02fe590d147f65d7e5d68f6eeb09d}
+
+\item 
+\hypertarget{interface_root_view_controller_abdd3d833c1ca9825ab2d039d5a57f4e1}{
+\hyperlink{interface_credits}{\-Credits} $\ast$ {\bfseries credits}}
+\label{interface_root_view_controller_abdd3d833c1ca9825ab2d039d5a57f4e1}
+
+\item 
+\hypertarget{interface_root_view_controller_a722d7b0c78b6602e8853aeea03e985d7}{
+\-I\-B\-Outlet \-U\-I\-Button $\ast$ \hyperlink{interface_root_view_controller_a722d7b0c78b6602e8853aeea03e985d7}{create\-New\-Mesh\-Button\-Curr}}
+\label{interface_root_view_controller_a722d7b0c78b6602e8853aeea03e985d7}
+
+\begin{DoxyCompactList}\small\item\em \-U\-I \-Componnents. \end{DoxyCompactList}\item 
+\hypertarget{interface_root_view_controller_a70017c5d81bebe1cbffbd66b54c2ed2d}{
+\-I\-B\-Outlet \-U\-I\-Button $\ast$ {\bfseries mesh\-Lib\-Button\-Curr}}
+\label{interface_root_view_controller_a70017c5d81bebe1cbffbd66b54c2ed2d}
+
+\item 
+\hypertarget{interface_root_view_controller_ab8b540ce15fa5ed592baaa68a69c05f2}{
+\-I\-B\-Outlet \-U\-I\-Button $\ast$ {\bfseries credits\-Button\-Curr}}
+\label{interface_root_view_controller_ab8b540ce15fa5ed592baaa68a69c05f2}
+
+\item 
+\hypertarget{interface_root_view_controller_a04243393bd46b16b90afb2b36b8a51d5}{
+\-I\-B\-Outlet \-U\-I\-Button $\ast$ {\bfseries dinosaur\-Button\-Curr}}
+\label{interface_root_view_controller_a04243393bd46b16b90afb2b36b8a51d5}
+
+\item 
+\hypertarget{interface_root_view_controller_af6a7b1e12a88fbc3f3e58b643bb4cc6d}{
+\-I\-B\-Outlet \-U\-I\-Image\-View $\ast$ {\bfseries dino\-Image}}
+\label{interface_root_view_controller_af6a7b1e12a88fbc3f3e58b643bb4cc6d}
+
+\item 
+\hypertarget{interface_root_view_controller_a7fc87d0a69cfc7c6f50b8457ceb3dbb9}{
+\-I\-B\-Outlet \-U\-I\-Label $\ast$ {\bfseries message}}
+\label{interface_root_view_controller_a7fc87d0a69cfc7c6f50b8457ceb3dbb9}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{interface_root_view_controller}{\-Root\-View\-Controller}\-: \-Root controller of the application which coardinates all the other controllers. 
+
+\begin{DoxySeeAlso}{\-See also}
+\hyperlink{interface_open_g_l_view_controller}{\-Open\-G\-L\-View\-Controller}, \hyperlink{interface_q_c_a_r_view_controller}{\-Q\-C\-A\-R\-View\-Controller}, \hyperlink{interface_mesh_library_view_controller}{\-Mesh\-Library\-View\-Controller}, \hyperlink{interface_credits}{\-Credits}, \hyperlink{interface_background_worker}{\-Background\-Worker} 
+\end{DoxySeeAlso}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\-Controllers/\-Root\-View\-Controller.\-h\item 
+src/\-Controllers/\-Root\-View\-Controller.\-mm\end{DoxyCompactItemize}
