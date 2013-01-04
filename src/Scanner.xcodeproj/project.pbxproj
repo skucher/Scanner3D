@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
-		84809E1F1497502500FFD612 /* Messager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84809E1E1497502400FFD612 /* Messager.m */; };
 		849F272514791214008537AC /* Credits Screen.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849F272214791214008537AC /* Credits Screen.PNG */; };
 		849F272614791214008537AC /* Loading Screen.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849F272314791214008537AC /* Loading Screen.PNG */; };
 		849F272714791214008537AC /* Main Screen.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849F272414791214008537AC /* Main Screen.PNG */; };
@@ -34,15 +33,7 @@
 		849F274414791338008537AC /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F274314791338008537AC /* Default-Landscape.png */; };
 		849F274614791343008537AC /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F274514791343008537AC /* Default-Landscape~ipad.png */; };
 		849F2748147914BF008537AC /* GoTo Square.png in Resources */ = {isa = PBXBuildFile; fileRef = 849F2747147914BF008537AC /* GoTo Square.png */; };
-		84A0E6971455A43900543EA4 /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A0E6961455A43900543EA4 /* libQCAR.a */; };
-		84A474161486B032005AF062 /* GoBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A474131486B032005AF062 /* GoBackButton.png */; };
-		84A474171486B032005AF062 /* ErosionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A474141486B032005AF062 /* ErosionButton.png */; };
-		84A474181486B032005AF062 /* DelusionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A474151486B032005AF062 /* DelusionButton.png */; };
-		84B296A91482EF3A001C2DCE /* MeshLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B296A81482EF3A001C2DCE /* MeshLibraryController.xib */; };
-		84B297131483068F001C2DCE /* TapDetectingImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84B2970F1483068F001C2DCE /* TapDetectingImageView.mm */; };
-		84B297141483068F001C2DCE /* ImagePreviewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84B297111483068F001C2DCE /* ImagePreviewController.mm */; };
-		84B29717148306F3001C2DCE /* ImagePreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B29716148306F3001C2DCE /* ImagePreviewController.xib */; };
-		84B29719148308AA001C2DCE /* ImagePreviewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B29718148308AA001C2DCE /* ImagePreviewController~ipad.xib */; };
+		84A0E6971455A43900543EA4 /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A0E6961455A43900543EA4 /* libQCAR.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		84D81500145051D10080EEF9 /* QCARButtonOverlay~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D814FF145051D10080EEF9 /* QCARButtonOverlay~ipad.xib */; };
 		84F5F76D14740C9E00E5B376 /* viff.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F74814740C9E00E5B376 /* viff.0.png */; };
 		84F5F76E14740C9E00E5B376 /* viff.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F74914740C9E00E5B376 /* viff.1.png */; };
@@ -156,6 +147,14 @@
 		84F5F8A214741F3700E5B376 /* OpenGLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F89C14741F3700E5B376 /* OpenGLViewController.xib */; };
 		84F5F8A314741F3700E5B376 /* QCARButtonOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F89D14741F3700E5B376 /* QCARButtonOverlay.xib */; };
 		84F5F8A414741F3700E5B376 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F5F89E14741F3700E5B376 /* RootViewController.xib */; };
+		FD4ECFE51696380900F2339B /* Messager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4ECFE41696380900F2339B /* Messager.m */; };
+		FD4ECFEA1696383D00F2339B /* ImagePreviewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD4ECFE71696383D00F2339B /* ImagePreviewController.mm */; };
+		FD4ECFEB1696383D00F2339B /* TapDetectingImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD4ECFE91696383D00F2339B /* TapDetectingImageView.mm */; };
+		FD4ECFEE1696387D00F2339B /* ImagePreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4ECFEC1696387D00F2339B /* ImagePreviewController.xib */; };
+		FD4ECFEF1696387D00F2339B /* MeshLibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4ECFED1696387D00F2339B /* MeshLibraryController.xib */; };
+		FD4ECFF1169638FC00F2339B /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4ECFF0169638FC00F2339B /* Default-Landscape~ipad.png */; };
+		FD4ECFF31696390F00F2339B /* ImagePreviewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4ECFF21696390F00F2339B /* ImagePreviewController~ipad.xib */; };
+		FD529B261696DFD500E1DCBF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD529B251696DFD500E1DCBF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -170,8 +169,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		84809E1D1497502400FFD612 /* Messager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Messager.h; path = "../../../../IOS Project/Project/scanner/src/Shared/Messager.h"; sourceTree = "<group>"; };
-		84809E1E1497502400FFD612 /* Messager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Messager.m; path = "../../../../IOS Project/Project/scanner/src/Shared/Messager.m"; sourceTree = "<group>"; };
 		849E9D79147AC4FA0060811C /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Edge.h; path = Sculptor/Edge.h; sourceTree = "<group>"; };
 		849F272214791214008537AC /* Credits Screen.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Credits Screen.PNG"; path = "Resources/background images/Credits Screen.PNG"; sourceTree = SOURCE_ROOT; };
 		849F272314791214008537AC /* Loading Screen.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Loading Screen.PNG"; path = "Resources/background images/Loading Screen.PNG"; sourceTree = SOURCE_ROOT; };
@@ -190,16 +187,6 @@
 		849F274514791343008537AC /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		849F2747147914BF008537AC /* GoTo Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GoTo Square.png"; path = "Resources/button pictures/GoTo Square.png"; sourceTree = "<group>"; };
 		84A0E6961455A43900543EA4 /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQCAR.a; path = ../lib/arm/libQCAR.a; sourceTree = "<group>"; };
-		84A474131486B032005AF062 /* GoBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GoBackButton.png; path = "../../../../IOS Project/Project/Docs/Buttons/GoBackButton.png"; sourceTree = "<group>"; };
-		84A474141486B032005AF062 /* ErosionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ErosionButton.png; path = "../../../../IOS Project/Project/Docs/Buttons/ErosionButton.png"; sourceTree = "<group>"; };
-		84A474151486B032005AF062 /* DelusionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DelusionButton.png; path = "../../../../IOS Project/Project/Docs/Buttons/DelusionButton.png"; sourceTree = "<group>"; };
-		84B296A81482EF3A001C2DCE /* MeshLibraryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MeshLibraryController.xib; path = "../../../../../../IOS Project/Project/scanner/src/Resources/Xibs/MeshLibraryController.xib"; sourceTree = "<group>"; };
-		84B2970F1483068F001C2DCE /* TapDetectingImageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TapDetectingImageView.mm; path = "../../../../IOS Project/Project/scanner/src/Controllers/Image expand/TapDetectingImageView.mm"; sourceTree = "<group>"; };
-		84B297101483068F001C2DCE /* TapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapDetectingImageView.h; path = "../../../../IOS Project/Project/scanner/src/Controllers/Image expand/TapDetectingImageView.h"; sourceTree = "<group>"; };
-		84B297111483068F001C2DCE /* ImagePreviewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ImagePreviewController.mm; path = "../../../../IOS Project/Project/scanner/src/Controllers/Image expand/ImagePreviewController.mm"; sourceTree = "<group>"; };
-		84B297121483068F001C2DCE /* ImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagePreviewController.h; path = "../../../../IOS Project/Project/scanner/src/Controllers/Image expand/ImagePreviewController.h"; sourceTree = "<group>"; };
-		84B29716148306F3001C2DCE /* ImagePreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImagePreviewController.xib; path = "../../../../../../IOS Project/Project/scanner/src/Resources/Xibs/ImagePreviewController.xib"; sourceTree = "<group>"; };
-		84B29718148308AA001C2DCE /* ImagePreviewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "ImagePreviewController~ipad.xib"; path = "../../../../IOS Project/Project/scanner/src/Resources-iPad/ImagePreviewController~ipad.xib"; sourceTree = "<group>"; };
 		84D814FF145051D10080EEF9 /* QCARButtonOverlay~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "QCARButtonOverlay~ipad.xib"; path = "Resources-iPad/QCARButtonOverlay~ipad.xib"; sourceTree = "<group>"; };
 		84F5F74814740C9E00E5B376 /* viff.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viff.0.png; path = Resources/dinosaur/pictures/viff.0.png; sourceTree = "<group>"; };
 		84F5F74914740C9E00E5B376 /* viff.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viff.1.png; path = Resources/dinosaur/pictures/viff.1.png; sourceTree = "<group>"; };
@@ -352,6 +339,17 @@
 		84F5F89C14741F3700E5B376 /* OpenGLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenGLViewController.xib; sourceTree = "<group>"; };
 		84F5F89D14741F3700E5B376 /* QCARButtonOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCARButtonOverlay.xib; sourceTree = "<group>"; };
 		84F5F89E14741F3700E5B376 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		FD4ECFE31696380900F2339B /* Messager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Messager.h; path = Shared/Messager.h; sourceTree = "<group>"; };
+		FD4ECFE41696380900F2339B /* Messager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Messager.m; path = Shared/Messager.m; sourceTree = "<group>"; };
+		FD4ECFE61696383D00F2339B /* ImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagePreviewController.h; path = "Controllers/Image expand/ImagePreviewController.h"; sourceTree = "<group>"; };
+		FD4ECFE71696383D00F2339B /* ImagePreviewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ImagePreviewController.mm; path = "Controllers/Image expand/ImagePreviewController.mm"; sourceTree = "<group>"; };
+		FD4ECFE81696383D00F2339B /* TapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapDetectingImageView.h; path = "Controllers/Image expand/TapDetectingImageView.h"; sourceTree = "<group>"; };
+		FD4ECFE91696383D00F2339B /* TapDetectingImageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TapDetectingImageView.mm; path = "Controllers/Image expand/TapDetectingImageView.mm"; sourceTree = "<group>"; };
+		FD4ECFEC1696387D00F2339B /* ImagePreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePreviewController.xib; sourceTree = "<group>"; };
+		FD4ECFED1696387D00F2339B /* MeshLibraryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeshLibraryController.xib; sourceTree = "<group>"; };
+		FD4ECFF0169638FC00F2339B /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources-iPad/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		FD4ECFF21696390F00F2339B /* ImagePreviewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "ImagePreviewController~ipad.xib"; path = "Resources-iPad/ImagePreviewController~ipad.xib"; sourceTree = "<group>"; };
+		FD529B251696DFD500E1DCBF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,8 +377,9 @@
 		150E056B137440BB0085C598 /* Resources-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				FD4ECFF21696390F00F2339B /* ImagePreviewController~ipad.xib */,
+				FD4ECFF0169638FC00F2339B /* Default-Landscape~ipad.png */,
 				84D814FF145051D10080EEF9 /* QCARButtonOverlay~ipad.xib */,
-				84B29718148308AA001C2DCE /* ImagePreviewController~ipad.xib */,
 				84F5F89614741EFC00E5B376 /* RootViewController~ipad.xib */,
 			);
 			name = "Resources-iPad";
@@ -439,6 +438,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				FD529B251696DFD500E1DCBF /* Default-568h@2x.png */,
 				15A15847135C9CD700C6B482 /* Scanner */,
 				2514C27610084DB600A42282 /* Shaders */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -486,10 +486,10 @@
 		84B1C375146D33E2000A657B /* Image Expand */ = {
 			isa = PBXGroup;
 			children = (
-				84B297121483068F001C2DCE /* ImagePreviewController.h */,
-				84B297111483068F001C2DCE /* ImagePreviewController.mm */,
-				84B2970F1483068F001C2DCE /* TapDetectingImageView.mm */,
-				84B297101483068F001C2DCE /* TapDetectingImageView.h */,
+				FD4ECFE61696383D00F2339B /* ImagePreviewController.h */,
+				FD4ECFE71696383D00F2339B /* ImagePreviewController.mm */,
+				FD4ECFE81696383D00F2339B /* TapDetectingImageView.h */,
+				FD4ECFE91696383D00F2339B /* TapDetectingImageView.mm */,
 			);
 			name = "Image Expand";
 			sourceTree = "<group>";
@@ -575,6 +575,8 @@
 		84BF2400144DCEA200233E5A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FD4ECFE31696380900F2339B /* Messager.h */,
+				FD4ECFE41696380900F2339B /* Messager.m */,
 				84F5F828147410E900E5B376 /* BackgroundWorker.h */,
 				84F5F829147410E900E5B376 /* BackgroundWorker.m */,
 				84F5F82A147410E900E5B376 /* Delegate.h */,
@@ -585,8 +587,6 @@
 				84F5F82F147410E900E5B376 /* ScannerCommon.mm */,
 				84F5F830147410E900E5B376 /* SculpImage.h */,
 				84F5F831147410E900E5B376 /* SculpImage.mm */,
-				84809E1D1497502400FFD612 /* Messager.h */,
-				84809E1E1497502400FFD612 /* Messager.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -681,9 +681,6 @@
 		84C5AA8D1456E3F800FFE4FB /* Button Icons */ = {
 			isa = PBXGroup;
 			children = (
-				84A474131486B032005AF062 /* GoBackButton.png */,
-				84A474141486B032005AF062 /* ErosionButton.png */,
-				84A474151486B032005AF062 /* DelusionButton.png */,
 				849F272914791242008537AC /* Display Round.png */,
 				849F272A14791242008537AC /* Display Square.png */,
 				849F272B14791242008537AC /* GoTo Round.png */,
@@ -749,13 +746,13 @@
 		84F5F89814741F3700E5B376 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				84B29716148306F3001C2DCE /* ImagePreviewController.xib */,
+				FD4ECFEC1696387D00F2339B /* ImagePreviewController.xib */,
+				FD4ECFED1696387D00F2339B /* MeshLibraryController.xib */,
 				84F5F89914741F3700E5B376 /* Credits.xib */,
 				84F5F89B14741F3700E5B376 /* Main.xib */,
 				84F5F89C14741F3700E5B376 /* OpenGLViewController.xib */,
 				84F5F89D14741F3700E5B376 /* QCARButtonOverlay.xib */,
 				84F5F89E14741F3700E5B376 /* RootViewController.xib */,
-				84B296A81482EF3A001C2DCE /* MeshLibraryController.xib */,
 			);
 			name = Xibs;
 			path = Resources/Xibs;
@@ -786,8 +783,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Scanner" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -912,12 +912,11 @@
 				849F274414791338008537AC /* Default-Landscape.png in Resources */,
 				849F274614791343008537AC /* Default-Landscape~ipad.png in Resources */,
 				849F2748147914BF008537AC /* GoTo Square.png in Resources */,
-				84B296A91482EF3A001C2DCE /* MeshLibraryController.xib in Resources */,
-				84B29717148306F3001C2DCE /* ImagePreviewController.xib in Resources */,
-				84B29719148308AA001C2DCE /* ImagePreviewController~ipad.xib in Resources */,
-				84A474161486B032005AF062 /* GoBackButton.png in Resources */,
-				84A474171486B032005AF062 /* ErosionButton.png in Resources */,
-				84A474181486B032005AF062 /* DelusionButton.png in Resources */,
+				FD4ECFEE1696387D00F2339B /* ImagePreviewController.xib in Resources */,
+				FD4ECFEF1696387D00F2339B /* MeshLibraryController.xib in Resources */,
+				FD4ECFF1169638FC00F2339B /* Default-Landscape~ipad.png in Resources */,
+				FD4ECFF31696390F00F2339B /* ImagePreviewController~ipad.xib in Resources */,
+				FD529B261696DFD500E1DCBF /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,9 +954,9 @@
 				84F5F87E14741D3200E5B376 /* ScannerAppDelegate.mm in Sources */,
 				84F5F88014741D6F00E5B376 /* main.m in Sources */,
 				84F5F88D14741E9F00E5B376 /* Texture.mm in Sources */,
-				84B297131483068F001C2DCE /* TapDetectingImageView.mm in Sources */,
-				84B297141483068F001C2DCE /* ImagePreviewController.mm in Sources */,
-				84809E1F1497502500FFD612 /* Messager.m in Sources */,
+				FD4ECFE51696380900F2339B /* Messager.m in Sources */,
+				FD4ECFEA1696383D00F2339B /* ImagePreviewController.mm in Sources */,
+				FD4ECFEB1696383D00F2339B /* TapDetectingImageView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,7 +974,6 @@
 				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -1058,7 +1056,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1074,7 +1071,6 @@
 				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
